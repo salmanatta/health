@@ -10,4 +10,28 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+    public function index()
+    {
+        return phpinfo();
+    }
+
+    public function testSQL()
+    {
+        return \Illuminate\Support\Facades\DB::table('testing')->get();
+    }
+    public function testOracle()
+    {
+        $endpoint = env('ORACLE_DB_BRIDGE');
+        $curl = curl_init();
+
+        curl_setopt($curl, CURLOPT_URL, "http://10.10.10.222/skm-bridge/index.php");
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($curl, CURLOPT_HEADER, false);
+
+        $data = curl_exec($curl);
+
+        curl_close($curl);
+
+        print_r($data);
+    }
 }

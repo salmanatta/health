@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/test-sql', [\App\Http\Controllers\Controller::class,'testSQL']);
+Route::get('/test-oracle', [\App\Http\Controllers\Controller::class,'testOracle']);
+Route::get('/', [\App\Http\Controllers\Controller::class,'index']);
