@@ -8,6 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ url('/resources/vendors/css/vendors.min.css') }}">
+    <!-- added for calender -->
+    <link rel="stylesheet" type="text/css"href="{{ url('/resources/css/pages/app-calendar.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url('/resources/vendors/css/calendars/fullcalendar.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('/resources/vendors/css/charts/apexcharts.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('/resources/vendors/css/extensions/toastr.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('/resources/css/bootstrap.min.css') }}">

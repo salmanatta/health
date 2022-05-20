@@ -28,8 +28,12 @@ class Controller extends BaseController
     {
         return view("patient-360.patient-form");
     }
+    public function showCalender()
+    {
+        return view("calender.calender");
+    }
 
-
+    
     public function testSQL()
     {
         return \Illuminate\Support\Facades\DB::table('testing')->get();
