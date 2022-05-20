@@ -22,5 +22,5 @@ Route::get('/calender' , [\App\Http\Controllers\Controller::class,'showCalender'
 Route::group(['prefix' => 'patient-360'] , function(){
     Route::get('/' , [\App\Http\Controllers\Controller::class,'patientsList'])->name('patients');
     Route::get('/add' , [\App\Http\Controllers\Controller::class,'addPatient'])->name('new-patient');
-   
+    
 });
