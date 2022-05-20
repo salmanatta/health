@@ -1,6 +1,6 @@
-@extends('dashboard')
+@extends('template.header')
 @section('section')
-<div class="content-wrapper container-xxl p-0">
+<div class="content-wrapper">
     <div class="content-header row">
     </div>
     <div class="content-body"><!-- Dashboard Ecommerce Starts -->

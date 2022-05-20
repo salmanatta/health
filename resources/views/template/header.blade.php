@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <title>PIC-Health</title>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -9,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="{{ url('/resources/vendors/css/vendors.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('/resources/vendors/css/charts/apexcharts.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('/resources/vendors/css/extensions/toastr.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ url('/resources/css/bootstrap.min.css') }}">>
+    <link rel="stylesheet" type="text/css" href="{{ url('/resources/css/bootstrap.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('/resources/css/bootstrap-extended.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('/resources/css/colors.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('/resources/css/components.min.css') }}">
@@ -21,5 +22,24 @@
     <link rel="stylesheet" type="text/css" href="{{ url('/resources/css/plugins/charts/chart-apex.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('/resources/css/plugins/extensions/ext-component-toastr.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url('/resources/css/style.css') }}">
-    <title>PIC-Health</title>
+    
 </head>
+<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static menu-collapsed" data-open="click" data-menu="vertical-menu-modern" data-col="">
+    @include('template.main-header')
+    @include('template.sidebar')
+
+    <div class="app-content content ">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+         @yield('section')
+    </div>
+
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
+    @include('template.footer') 
+
+</body>
+</html>
+
+

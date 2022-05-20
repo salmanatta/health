@@ -13,7 +13,7 @@
 <!-- END: Theme JS-->
 
 <!-- BEGIN: Page JS-->
-<script src="{{ url('/resources/js/scripts/pages/dashboard-ecommerce.min.js') }}"></script>
+<!-- <script src="{{ url('/resources/js/scripts/pages/dashboard-ecommerce.min.js') }}"></script> -->
 <!-- END: Page JS-->
 
 <script>
@@ -23,5 +23,3 @@
         }
     })
 </script>
-</body>
-</html>

@@ -12,8 +12,23 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public function index()
     {
-        return phpinfo();
+        return view("template.dashboard-content");
     }
+    public function home()
+    {
+        
+    }
+
+    public function patientsList()
+    {
+        return view("patient-360.patients");
+    }
+
+    public function addPatient()
+    {
+        return view("patient-360.patient-form");
+    }
+
 
     public function testSQL()
     {

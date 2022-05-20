@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/test-sql', [\App\Http\Controllers\Controller::class,'testSQL']);
 Route::get('/test-oracle', [\App\Http\Controllers\Controller::class,'testOracle']);
 Route::get('/', [\App\Http\Controllers\Controller::class,'index']);
+Route::get('/home', [\App\Http\Controllers\Controller::class,'home']);
+
+
+
+Route::group(['prefix' => 'patient-360'] , function(){
+    Route::get('/' , [\App\Http\Controllers\Controller::class,'patientsList'])->name('patients');
+    Route::get('/add' , [\App\Http\Controllers\Controller::class,'addPatient'])->name('new-patient');
+});
