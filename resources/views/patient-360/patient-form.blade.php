@@ -21,14 +21,11 @@
           </div>
           <div class="content-header-right text-md-end col-md-3 col-12 d-md-block d-none">
             <div class="mb-1 breadcrumb-right">
-              <div class="dropdown">
-                <button class="btn-icon btn btn-primary btn-round btn-sm dropdown-toggle waves-effect waves-float waves-light" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg></button>
-                <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="app-todo.html"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-square me-1"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg><span class="align-middle">Todo</span></a><a class="dropdown-item" href="app-chat.html"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square me-1"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg><span class="align-middle">Chat</span></a><a class="dropdown-item" href="app-email.html"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail me-1"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><span class="align-middle">Email</span></a><a class="dropdown-item" href="app-calendar.html"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar me-1"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg><span class="align-middle">Calendar</span></a></div>
-              </div>
             </div>
           </div>
         </div>
-        <div class="content-body"><!-- Basic Horizontal form layout section start -->
+        <div class="content-body">
+            <!-- Basic Horizontal form layout section start -->
 <!-- Basic multiple Column Form section start -->
 <section id="multiple-column-form">
   <div class="row">
@@ -37,12 +34,18 @@
         <div class="card">
         <div class="card-body">
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-md-4">
                 <div class="mb-1">
-                  <label class="form-label" for="first-name-column">Search MRN</label>
-                  <input type="text" id="first-name-column" class="form-control" placeholder="First Name" name="fname-column">
+                  <label class="form-label" for="Search-MRN">Search MRN</label>
+                  <input type="text" id="Search-MRN" class="form-control" placeholder="Enter MR to Search" name="Search-MRN">
                 </div>
               </div>
+                <div class="col-md-4">
+                    <div class="mb-1 py-2">
+                        <button class="btn btn-primary">Search</button>
+                    </div>
+                </div>
+
             </div>
         </div>
       </div>
@@ -54,63 +57,94 @@
             <div class="row">
               <div class="col-md-4 col-6">
                 <div class="mb-1">
-                  <label class="form-label" for="first-name-column">Title</label>
-                  <input type="text" id="first-name-column" class="form-control" placeholder="First Name" name="fname-column">
+                  <label class="form-label" for="First-Name">First Name</label>
+                  <input type="text" id="First-Name" class="form-control" placeholder="First Name" name="First-Name">
                 </div>
               </div>
               <div class="col-md-4 col-6">
                 <div class="mb-1">
-                  <label class="form-label" for="last-name-column">First Name</label>
-                  <input type="text" id="last-name-column" class="form-control" placeholder="Last Name" name="lname-column">
+                  <label class="form-label" for="Middle-Name">Middle Name</label>
+                  <input type="text" id="Middle-Name" class="form-control" placeholder="Middle Name" name="Middle-Name">
                 </div>
               </div>
               <div class="col-md-4 col-6">
                 <div class="mb-1">
-                  <label class="form-label" for="city-column">Middle Name</label>
-                  <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
+                  <label class="form-label" for="Last-Name">Last Name</label>
+                  <input type="text" id="Last-Name" class="form-control" placeholder="Last Name" name="Last-Name">
                 </div>
               </div>
-              <div class="col-md-4 col-6">
-                <div class="mb-1">
-                  <label class="form-label" for="city-column">Last Name</label>
-                  <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
+            </div>
+                <div class="row">
+                  <div class="col-md-4 col-6">
+                    <div class="mb-1">
+                      <label class="form-label" for="Father-Name">Father/Husband Name</label>
+                      <input type="text" id="Father-Name" class="form-control" placeholder="Father|Husband Name" name="Father-Name">
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-6">
+                    <div class="mb-1">
+                      <label class="form-label" for="CNIC">CNIC</label>
+                      <input type="text" id="CNIC" class="form-control" placeholder="CNIC" name="CNIC">
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-6">
+                    <div class="mb-1">
+                      <label class="form-label" for="Age">Blood Group</label>
+                        <select class="form-select flex-grow-1"
+                                name="Blood-Group">
+                            <option value=""> -- Select Blood Group --</option>
+                            <option value="A+">A+</option>
+                            <option value="A-">A-</option>
+                            <option value="B+">B+</option>
+                            <option value="B-">B-</option>
+                            <option value="O+">O+</option>
+                            <option value="O+">O-</option>
+                            <option value="O+">AB+</option>
+                            <option value="O+">AB-</option>
+                        </select>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="col-md-4 col-6">
-                <div class="mb-1">
-                  <label class="form-label" for="city-column">CNIC</label>
-                  <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
-                </div>
-              </div>
-              <div class="col-md-4 col-6">
-                <div class="mb-1">
-                  <label class="form-label" for="city-column">Father Name</label>
-                  <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
-                </div>
-              </div>
-              <div class="col-md-4 col-6">
-                <div class="mb-1">
-                  <label class="form-label" for="city-column">D.O.B</label>
-                  <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
-                </div>
-              </div>
-              <div class="col-md-2 col-6">
-                <div class="mb-1">
-                  <label class="form-label" for="city-column">Age</label>
-                  <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
-                </div>
-              </div>
-              <div class="col-md-2 col-6">
-                <div class="mb-1">
-                  <label class="form-label" for="city-column">Gender</label>
-                  <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
-                </div>
-              </div>
-              <div class="col-md-4 col-6">
-                <div class="mb-1">
-                  <label class="form-label" for="city-column">Marital Status</label>
-                  <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
-                </div>
+                <div class="row">
+                  <div class="col-md-4 col-6">
+                    <div class="mb-1">
+                      <label class="form-label" for="DBO">D.O.B</label>
+                      <input type="date" id="DBO" class="form-control" placeholder="D.O.B" name="DBO">
+                    </div>
+                  </div>
+                  <div class="col-md-1 col-6">
+                    <div class="mb-1">
+                      <label class="form-label" for="Age">Age</label>
+                      <input type="number" id="Age" class="form-control" placeholder="Age" name="Age">
+                    </div>
+                  </div>
+                  <div class="col-md-1 col-6">
+                    <div class="mb-1">
+                      <label class="form-label" for="DMY">DMY</label>
+                        <select class="form-select flex-grow-1" name="DMY">
+                            <option value=""> -- Select --</option>
+                            <option value="Years">Years</option>
+                            <option value="Months">Months</option>
+                            <option value="Days">Days</option>
+                        </select>
+                    </div>
+                  </div>
+                    <div class="col-md-2 col-6">
+                        <div class="mb-1">
+                            <label class="form-label" for="city-column">Gender</label>
+                            <select class="form-select flex-grow-1" name="Gender">
+                                <option value=""> -- Select Gender--</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
+                    </div>
+                      <div class="col-md-4 col-6">
+                        <div class="mb-1">
+                          <label class="form-label" for="Marital Status">Marital Status</label>
+                          <input type="text" id="Marital Status" class="form-control" placeholder="Marital Status" name="Marital-Status">
+                        </div>
+                    </div>
               </div>
               <div class="col-md-4 col-6">
                 <div class="mb-1">
@@ -148,7 +182,7 @@
                   <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
                 </div>
               </div>
-              
+
               <div class="col-md-3 col-6">
                 <div class="mb-1">
                   <label class="form-label" for="country-floating">City</label>

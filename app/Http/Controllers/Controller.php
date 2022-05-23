@@ -16,7 +16,7 @@ class Controller extends BaseController
     }
     public function home()
     {
-        
+
     }
 
     public function patientsList()
@@ -33,7 +33,7 @@ class Controller extends BaseController
         return view("calender.calender");
     }
 
-    
+
     public function testSQL()
     {
         return \Illuminate\Support\Facades\DB::table('testing')->get();
@@ -42,7 +42,6 @@ class Controller extends BaseController
     {
         $endpoint = env('ORACLE_DB_BRIDGE');
         $curl = curl_init();
-
         curl_setopt($curl, CURLOPT_URL, "http://10.10.10.222/skm-bridge/index.php");
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($curl, CURLOPT_HEADER, false);
