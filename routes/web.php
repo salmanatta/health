@@ -29,3 +29,7 @@ Route::group(['prefix' => 'patient-360'] , function() {
     Route::get('/patient', [\App\Http\Controllers\Controller::class, 'newPatient'])->name('new-patient');
 });
 
+Route::group(['prefix' => 'Anestesia'] , function() {
+    Route::get('/', [\App\Http\Controllers\Controller::class, 'preOpAnestesia'])->name('pre-op-anestesia');
+   
+});

@@ -36,6 +36,10 @@ class Controller extends BaseController
     {
         return view("calender.calender");
     }
+    public function preOPAnestesia(){
+
+        return view('anestesia.preOpAnestesiaNotes');
+    }
 
 
     public function testSQL()
