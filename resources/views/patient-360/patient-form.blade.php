@@ -146,55 +146,6 @@
                         </div>
                     </div>
               </div>
-              <div class="col-md-4 col-6">
-                <div class="mb-1">
-                  <label class="form-label" for="city-column">Husband Name</label>
-                  <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
-                </div>
-              </div>
-              <div class="col-md-4 col-6">
-                <div class="mb-1">
-                  <label class="form-label" for="city-column">Religion</label>
-                  <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
-                </div>
-              </div>
-              <div class="col-md-2 col-6">
-                <div class="mb-1">
-                  <label class="form-label" for="city-column">Blood Group</label>
-                  <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
-                </div>
-              </div>
-              <div class="col-md-2 col-6">
-                <div class="mb-1">
-                  <label class="form-label" for="city-column">Nationality</label>
-                  <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
-                </div>
-              </div>
-              <div class="col-md-3 col-6">
-                <div class="mb-1">
-                  <label class="form-label" for="city-column">Passport</label>
-                  <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
-                </div>
-              </div>
-              <div class="col-md-2 col-6">
-                <div class="mb-1">
-                  <label class="form-label" for="city-column">Country</label>
-                  <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
-                </div>
-              </div>
-
-              <div class="col-md-3 col-6">
-                <div class="mb-1">
-                  <label class="form-label" for="country-floating">City</label>
-                  <input type="text" id="country-floating" class="form-control" name="country-floating" placeholder="Country">
-                </div>
-              </div>
-              <div class="col-md-3 col-6">
-                <div class="mb-1">
-                  <label class="form-label" for="city-column">Occupation</label>
-                  <input type="text" id="city-column" class="form-control" placeholder="City" name="city-column">
-                </div>
-              </div>
             </div>
         </div>
       </div>
@@ -206,26 +157,26 @@
             <div class="row">
               <div class="col-md-4 col-6">
                 <div class="mb-1">
-                  <label class="form-label" for="first-name-column">Primary Contact</label>
-                  <input type="text" id="first-name-column" class="form-control" placeholder="First Name" name="fname-column">
+                  <label class="form-label" for="Mobile_1">Primary Contact</label>
+                  <input type="text" id="Mobile_1" class="form-control" placeholder="+92 xxxxxxxxx" name="Mobile_1">
                 </div>
               </div>
               <div class="col-md-4 col-6">
                 <div class="mb-1">
-                  <label class="form-label" for="last-name-column">Secondary Contact</label>
-                  <input type="text" id="last-name-column" class="form-control" placeholder="Last Name" name="lname-column">
+                  <label class="form-label" for="Mobile_2">Secondary Contact</label>
+                  <input type="text" id="Mobile_2" class="form-control" placeholder="+92 xxxxxxxxx" name="Mobile_2">
                 </div>
               </div>
               <div class="col-md-4 col-6">
                 <div class="mb-1">
-                  <label class="form-label" for="last-name-column">Landline</label>
-                  <input type="text" id="last-name-column" class="form-control" placeholder="091-xxxxxx" name="lname-column">
+                  <label class="form-label" for="Landline">Landline</label>
+                  <input type="text" id="Landline" class="form-control" placeholder="091-xxxxxx" name="Landline">
                 </div>
               </div>
               <div class="col-md-4 col-6">
                 <div class="mb-1">
-                  <label class="form-label" for="last-name-column">Email Address</label>
-                  <input type="text" id="last-name-column" class="form-control" placeholder="091-xxxxxx" name="lname-column">
+                  <label class="form-label" for="Email">Email Address</label>
+                  <input type="text" id="Email" class="form-control" placeholder="example@abc.com" name="Email">
                 </div>
               </div>
             </div>
@@ -239,20 +190,27 @@
             <div class="row">
               <div class="col-md-4 col-6">
                 <div class="mb-1">
-                  <label class="form-label" for="first-name-column">Full Name</label>
-                  <input type="text" id="first-name-column" class="form-control" placeholder="First Name" name="fname-column">
+                  <label class="form-label" for="kinName">Full Name</label>
+                  <input type="text" id="kinName" class="form-control" placeholder="First Name" name="kinName">
                 </div>
               </div>
               <div class="col-md-4 col-6">
                 <div class="mb-1">
-                  <label class="form-label" for="last-name-column">Relationship</label>
-                  <input type="text" id="last-name-column" class="form-control" placeholder="Last Name" name="lname-column">
+                  <label class="form-label" for="kinRelationn">Relationship</label>
+                    <select class="form-select flex-grow-1" name="kinRelation">
+                        <option value=""> -- Select --</option>
+                        <option value="Mother">Mother</option>
+                        <option value="Father">Father</option>
+                        <option value="Son">Son</option>
+                        <option value="Daughter">Daughter</option>
+                        <option value="Uncle">Uncle</option>
+                    </select>
                 </div>
               </div>
               <div class="col-md-4 col-6">
                 <div class="mb-1">
-                  <label class="form-label" for="last-name-column">CNIC</label>
-                  <input type="text" id="last-name-column" class="form-control" placeholder="091-xxxxxx" name="lname-column">
+                  <label class="form-label" for="kinContact">Contact No</label>
+                  <input type="text" id="kinContact" class="form-control" placeholder="091-xxxxxx" name="kinContact">
                 </div>
               </div>
             </div>
@@ -266,60 +224,55 @@
             <div class="row">
               <div class="col-md-4 col-6">
                 <div class="mb-1">
-                  <label class="form-label" for="first-name-column">House No.</label>
-                  <input type="text" id="first-name-column" class="form-control" placeholder="First Name" name="fname-column">
+                  <label class="form-label" for="HouseNo">House No.</label>
+                  <input type="text" id="HouseNo" class="form-control" placeholder="House No" name="HouseNo">
                 </div>
               </div>
               <div class="col-md-4 col-6">
                 <div class="mb-1">
-                  <label class="form-label" for="last-name-column">Street</label>
-                  <input type="text" id="last-name-column" class="form-control" placeholder="Last Name" name="lname-column">
+                  <label class="form-label" for="Street">Street</label>
+                  <input type="text" id="Street" class="form-control" placeholder="Street" name="Street">
                 </div>
               </div>
               <div class="col-md-4 col-6">
                 <div class="mb-1">
-                  <label class="form-label" for="last-name-column">Sector / Area</label>
-                  <input type="text" id="last-name-column" class="form-control" placeholder="091-xxxxxx" name="lname-column">
+                  <label class="form-label" for="Sector">Sector / Area</label>
+                  <input type="text" id="Sector" class="form-control" placeholder="Sector" name="Sector">
                 </div>
               </div>
               <div class="col-md-12 col-12">
                 <div class="mb-1">
                   <label class="form-label" for="last-name-column">Address</label>
-                  <input type="text" id="last-name-column" class="form-control" placeholder="091-xxxxxx" name="lname-column">
+                  <input type="text" id="Address" class="form-control" placeholder="Full Address" name="Address">
                 </div>
               </div>
               <div class="col-md-4 col-6">
                 <div class="mb-1">
-                  <label class="form-label" for="last-name-column">District</label>
-                  <input type="text" id="last-name-column" class="form-control" placeholder="091-xxxxxx" name="lname-column">
+                  <label class="form-label" for="Country">Country</label>
+                  <input type="text" id="Country" class="form-control" placeholder="091-xxxxxx" name="Country">
                 </div>
               </div>
               <div class="col-md-4 col-6">
                 <div class="mb-1">
-                  <label class="form-label" for="last-name-column">Province</label>
-                  <input type="text" id="last-name-column" class="form-control" placeholder="091-xxxxxx" name="lname-column">
+                  <label class="form-label" for="Province">Province</label>
+                  <input type="text" id="Province" class="form-control" placeholder="Province" name="Province">
                 </div>
               </div>
               <div class="col-md-4 col-6">
                 <div class="mb-1">
-                  <label class="form-label" for="last-name-column">Country</label>
-                  <input type="text" id="last-name-column" class="form-control" placeholder="091-xxxxxx" name="lname-column">
+                  <label class="form-label" for="last-name-column">City</label>
+                  <input type="text" id="City" class="form-control" placeholder="City" name="City">
                 </div>
               </div>
               <div class="col-12">
-                <button type="reset" class="btn btn-primary me-1 waves-effect waves-float waves-light">Submit</button>
+                <button type="submit" class="btn btn-primary me-1 waves-effect waves-float waves-light">Submit</button>
                 <button type="reset" class="btn btn-outline-secondary waves-effect">Reset</button>
               </div>
             </div>
         </div>
       </div>
-      </form>
     </div>
   </div>
-</section>
-<!-- Basic Floating Label Form section end -->
 
-        </div>
-      </div>
 @endsection
 

@@ -23,6 +23,10 @@ class Controller extends BaseController
     {
         return view("patient-360.patients");
     }
+    public function newPatient()
+    {
+        return view('patient-360.patient-form');
+    }
 
     public function addPatient()
     {

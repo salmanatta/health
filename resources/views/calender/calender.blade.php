@@ -27,24 +27,28 @@
                 <div class="calendar-events-filter">
                   <div class="form-check form-check-danger mb-1">
                     <input type="checkbox" class="form-check-input input-filter" id="personal" data-value="personal" checked="">
-                    <label class="form-check-label" for="personal">Personal</label>
+                    <label class="form-check-label" for="personal">OR Room 01</label>
                   </div>
                   <div class="form-check form-check-primary mb-1">
                     <input type="checkbox" class="form-check-input input-filter" id="business" data-value="business" checked="">
-                    <label class="form-check-label" for="business">Business</label>
+                    <label class="form-check-label" for="business">OR Room 02</label>
                   </div>
                   <div class="form-check form-check-warning mb-1">
                     <input type="checkbox" class="form-check-input input-filter" id="family" data-value="family" checked="">
-                    <label class="form-check-label" for="family">Family</label>
+                    <label class="form-check-label" for="family">OR Room 03</label>
                   </div>
                   <div class="form-check form-check-success mb-1">
-                    <input type="checkbox" class="form-check-input input-filter" id="holiday" data-value="holiday" checked="">
-                    <label class="form-check-label" for="holiday">Holiday</label>
+                    <input type="checkbox" class="form-check-input input-filter" id="ss" data-value="holiday" checked="">
+                    <label class="form-check-label" for="holiday">OR Room 04</label>
                   </div>
-                  <div class="form-check form-check-info">
+                  <div class="form-check form-check-info mb-1">
                     <input type="checkbox" class="form-check-input input-filter" id="etc" data-value="etc" checked="">
-                    <label class="form-check-label" for="etc">ETC</label>
+                    <label class="form-check-label" for="etc">OR Room 05</label>
                   </div>
+                    <div class="form-check form-check-info mb-1">
+                        <input type="checkbox" class="form-check-input input-filter" id="s" data-value="etc" checked="">
+                        <label class="form-check-label" for="etc">OR Room 06</label>
+                    </div>
                 </div>
               </div>
             </div>
@@ -638,70 +642,71 @@
             </div>
           </div>
           <!-- /Calendar -->
-          <div class="body-content-overlay"></div>
+          <div class="body-content-overlay">
+          </div>
         </div>
       </div>
+
       <!-- Calendar Add/Update/Delete event modal-->
       <div class="modal modal-slide-in event-sidebar fade" id="add-new-sidebar">
         <div class="modal-dialog sidebar-lg">
           <div class="modal-content p-0">
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">×</button>
             <div class="modal-header mb-1">
-              <h5 class="modal-title">Add Event</h5>
+              <h5 class="modal-title">Schedule Details</h5>
             </div>
             <div class="modal-body flex-grow-1 pb-sm-0 pb-3">
               <form class="event-form needs-validation" data-ajax="false" novalidate="novalidate">
-                <div class="mb-1">
-                  <label for="title" class="form-label">Title</label>
-                  <input type="text" class="form-control" id="title" name="title" placeholder="Event Title" required="">
-                </div>
-                <div class="mb-1">
-                  <label for="select-label" class="form-label">Label</label>
-                  <div class="position-relative"><select class="select2 select-label form-select w-100 select2-hidden-accessible" id="select-label" name="select-label" data-select2-id="select-label" tabindex="-1" aria-hidden="true">
-                      <option data-label="primary" value="Business" selected="" data-select2-id="2">Business</option>
-                      <option data-label="danger" value="Personal">Personal</option>
-                      <option data-label="warning" value="Family">Family</option>
-                      <option data-label="success" value="Holiday">Holiday</option>
-                      <option data-label="info" value="ETC">ETC</option>
-                    </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="1" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-select-label-container"><span class="select2-selection__rendered" id="select2-select-label-container" role="textbox" aria-readonly="true" title="Business"><span class="bullet bullet-primary bullet-sm me-50"> </span>Business</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span></div>
-                </div>
                 <div class="mb-1 position-relative">
                   <label for="start-date" class="form-label">Start Date</label>
-                  <input type="text" class="form-control flatpickr-input" id="start-date" name="start-date" placeholder="Start Date" readonly="readonly">
+                  <input type="datetime-local" class="form-control" id="startdate" name="start-date">
                 </div>
                 <div class="mb-1 position-relative">
                   <label for="end-date" class="form-label">End Date</label>
-                  <input type="text" class="form-control flatpickr-input" id="end-date" name="end-date" placeholder="End Date" readonly="readonly">
+                  <input type="datetime-local" class="form-control flatpickr-input" id="enddate">
                 </div>
                 <div class="mb-1">
-                  <div class="form-check form-switch">
-                    <input type="checkbox" class="form-check-input allDay-switch" id="customSwitch3">
-                    <label class="form-check-label" for="customSwitch3">All Day</label>
+                  <label for="event-url" class="form-label">OR Room</label>
+                    <select class="select2 select-add-guests form-select w-100 select2-hidden-accessible" aria-hidden="true">
+                        <option value="Room 01">Room 01</option>
+                        <option value="Room 02">Room 02</option>
+                        <option value="Room 03">Room 03</option>
+                        <option value="Room 04">Room 04</option>
+                        <option value="Room 05">Room 05</option>
+                        <option value="Room 06">Room 06</option>
+                    </select>
+                </div>
+                  <div class="mb-1 position-relative">
+                      <label for="end-date" class="form-label">Patient Name</label>
+                      <input type="text" class="form-control">
                   </div>
-                </div>
-                <div class="mb-1">
-                  <label for="event-url" class="form-label">Event URL</label>
-                  <input type="url" class="form-control" id="event-url" placeholder="https://www.google.com/">
-                </div>
+                  <div class="mb-1">
+                      <label for="event-url" class="form-label">CPT</label>
+                      <select class="select2 select-add-guests form-select w-100 select2-hidden-accessible" aria-hidden="true">
+                          <option value="Room 01">CABG</option>
+                          <option value="Room 02">CABG 1</option>
+                          <option value="Room 03">CABG 2</option>
+                          <option value="Room 04">CABG 3</option>
+                      </select>
+                  </div>
                 <div class="mb-1 select2-primary">
-                  <label for="event-guests" class="form-label">Add Guests</label>
-                  <div class="position-relative"><select class="select2 select-add-guests form-select w-100 select2-hidden-accessible" id="event-guests" multiple="" data-select2-id="event-guests" tabindex="-1" aria-hidden="true">
-                      <option data-avatar="1-small.png" value="Jane Foster">Jane Foster</option>
-                      <option data-avatar="3-small.png" value="Donna Frank">Donna Frank</option>
-                      <option data-avatar="5-small.png" value="Gabrielle Robertson">Gabrielle Robertson</option>
-                      <option data-avatar="7-small.png" value="Lori Spears">Lori Spears</option>
-                      <option data-avatar="9-small.png" value="Sandy Vega">Sandy Vega</option>
-                      <option data-avatar="11-small.png" value="Cheryl May">Cheryl May</option>
-                    </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="3" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false">
-                          <ul class="select2-selection__rendered">
-                            <li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" placeholder="Select value" style="width: 0px;"></li>
-                          </ul>
-                        </span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span></div>
-                </div>
-                <div class="mb-1">
-                  <label for="event-location" class="form-label">Location</label>
-                  <input type="text" class="form-control" id="event-location" placeholder="Enter Location">
-                </div>
+                  <label for="event-guests" class="form-label">Consultant</label>
+                  <div class="position-relative">
+                      <select class="form-select flex-grow-1">
+                          <option value="Room 01">Dr Abdul Nasir</option>
+                          <option value="Room 02">Dr Muhammad Traiq</option>
+                          <option value="Room 03">Dr Mubasir Zareen</option>
+                          <option value="Room 04">Dr Ijaz Hussan</option>
+                    </select>
+                      <div class="mb-1">
+                          <label for="event-url" class="form-label">Anesthetic</label>
+                          <select class="select2 select-add-guests form-select w-100 select2-hidden-accessible" aria-hidden="true">
+                              <option value="Room 01">Dr Kashif Anwar</option>
+                              <option value="Room 02">Dr Izaz</option>
+                              <option value="Room 03">Dr Kamran</option>
+                              <option value="Room 04">Dr Sheeba</option>
+                          </select>
+                      </div>
                 <div class="mb-1">
                   <label class="form-label">Description</label>
                   <textarea name="event-description-editor" id="event-description-editor" class="form-control"></textarea>

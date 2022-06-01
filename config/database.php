@@ -35,6 +35,18 @@ return [
 
     'connections' => [
 
+        'oracle' => [
+            'driver' => 'oracle',
+            'host' => '10.10.10.81',
+            'port' => '1521',
+            'database' => 'PICDB',
+            "tns" => "(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.10.10.81)(PORT=1521))) (CONNECT_DATA=(SERVER=DEDICATED)(SID=picdb)))",
+            'username' => 'dbas',
+            'password' => 'dbas',
+            'charset' => '',
+            'prefix' => '',
+        ],
+
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DATABASE_URL'),
