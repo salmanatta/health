@@ -27,9 +27,11 @@ Route::get('/calender' , [\App\Http\Controllers\Controller::class,'showCalender'
 Route::group(['prefix' => 'patient-360'] , function() {
     Route::get('/', [\App\Http\Controllers\Controller::class, 'patientsList'])->name('patients');
     Route::get('/patient', [\App\Http\Controllers\Controller::class, 'newPatient'])->name('new-patient');
+    Route::get('/cardiac-History', [\App\Http\Controllers\Controller::class, 'cardiacHistory'])->name('cardiac-History');
 });
 
-Route::group(['prefix' => 'Anestesia'] , function() {
-    Route::get('/', [\App\Http\Controllers\Controller::class, 'preOpAnestesia'])->name('pre-op-anestesia');
-   
+Route::group(['prefix' => 'anesthesia'] , function() {
+    Route::get('/', [\App\Http\Controllers\Controller::class, 'preOpAnesthesia'])->name('pre-op-anesthesia');
+
+
 });

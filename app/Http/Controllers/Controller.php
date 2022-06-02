@@ -36,9 +36,9 @@ class Controller extends BaseController
     {
         return view("calender.calender");
     }
-    public function preOPAnestesia(){
+    public function preOPAnesthesia(){
 
-        return view('anestesia.preOpAnestesiaNotes');
+        return view('anesthesia.preOpAnesthesiaNotes');
     }
 
 
@@ -59,5 +59,9 @@ class Controller extends BaseController
         curl_close($curl);
 
         print_r($data);
+    }
+    public function cardiacHistory()
+    {
+        return view('patient-360.cardiacHistory');
     }
 }
