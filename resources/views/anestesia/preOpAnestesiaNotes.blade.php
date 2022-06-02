@@ -103,19 +103,40 @@
                             <div class="col-md-4 col-6">
                                 <div class="mb-1">
                                     <label class="form-label" for="First-Name">Anestesia Consultant</label>
-                                    <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Consultant" name="Anestesia-Consultant">
+                                    <select class="form-select flex-grow-1" name="Blood-Group">
+                                        <option value=""> Dr. Kashif Anwar</option>
+                                        <option value="">Dr. Abidullah</option>
+                                        <option value="">Dr. Kashif Anwar</option>
+                                        <option value="">Dr. Abdul Nasir</option>
+                                        <option value="">Dr. RafiUllah</option>
+                                    </select>
+                                    <!-- <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Consultant" name="Anestesia-Consultant"> -->
                                 </div>
                             </div>
                             <div class="col-md-4 col-6">
                                 <div class="mb-1">
                                     <label class="form-label" for="First-Name">Anestesia Incharge</label>
-                                    <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge">
+                                    <!-- <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge"> -->
+                                    <select class="form-select flex-grow-1" name="Blood-Group">
+                                        <option value=""> Dr. Kashif Anwar</option>
+                                        <option value="">Dr. Abidullah</option>
+                                        <option value="">Dr. Kashif Anwar</option>
+                                        <option value="">Dr. Abdul Nasir</option>
+                                        <option value="">Dr. RafiUllah</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="col-md-4 col-6">
                                 <div class="mb-1">
                                     <label class="form-label" for="First-Name">Anestesia Assistant</label>
-                                    <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Assistant" name="Anestesia-Assistant">
+                                    <!-- <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Assistant" name="Anestesia-Assistant"> -->
+                                    <select class="form-select flex-grow-1" name="Blood-Group">
+                                        <option value=""> Dr. Kashif Anwar</option>
+                                        <option value="">Dr. Abidullah</option>
+                                        <option value="">Dr. Kashif Anwar</option>
+                                        <option value="">Dr. Abdul Nasir</option>
+                                        <option value="">Dr. RafiUllah</option>
+                                    </select>
                                 </div>
                             </div>
 
@@ -129,72 +150,181 @@
                     </div>
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-md-4 col-6">
+                            <div class="col-md-6 col-6">
                                 <div class="mb-1">
                                     <label class="form-label" for="kinName">Pre Anestesia History</label>
-                                    <input type="text" id="kinName" class="form-control" placeholder="First Name" name="kinName">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                             </div>
-                           
-                            
+                            <div class="col-md-6 col-12">
+                                <div class="mb-1">
+                                    <label class="form-label" for="kinName">Medical History</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+
                         </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <h4 class="card-title">Current Address</h4>
-                    </div>
-                    <div class="card-body">
                         <div class="row">
-                            <div class="col-md-4 col-6">
+                            <div class="col-md-3 col-6">
                                 <div class="mb-1">
-                                    <label class="form-label" for="HouseNo">House No.</label>
-                                    <input type="text" id="HouseNo" class="form-control" placeholder="House No" name="HouseNo">
+                                    <label class="form-label" for="kinName">Addiction History</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-6">
+                            <div class="col-md-3 col-6">
                                 <div class="mb-1">
-                                    <label class="form-label" for="Street">Street</label>
-                                    <input type="text" id="Street" class="form-control" placeholder="Street" name="Street">
+                                    <label class="form-label" for="kinName">Alergies</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-6">
+                            <div class="col-md-6 col-6 ">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="me-1">
+                                            <label class="form-label" for="kinName">Anticipated IV problem</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="d-flex">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                <label class="form-check-label" for="inlineCheckbox2">No</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="me-1">
+                                            <label class="form-label" for="kinName">NPO</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="d-flex">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                <label class="form-check-label" for="inlineCheckbox2">No</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                <label class="form-check-label" for="inlineCheckbox2">Others</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <div class="col-md-6 col-6">
+                                        <label class="form-label" for="kinName">Airway Assesment</label>
+                                        <div class="">
+                                            <input type="text" id="First-Name" class="form-control" placeholder="Airway Assesment" name="Anestesia-Assistant">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-6">
+                                        <label class="form-label" for="kinName">Mouth Opening</label>
+                                        <div class="">
+                                            <input type="text" id="First-Name" class="form-control" placeholder="Mouth Opening" name="Anestesia-Assistant">
+                                        </div>
+                                    </div>
+                                    <!-- <div class="col-md-6 col-6">
+                                        <label class="form-label" for="kinName">Defination</label>
+                                        <div class="">
+                                            <input type="text" id="First-Name" class="form-control" placeholder="Defination" name="Anestesia-Assistant">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-6">
+                                        <label class="form-label" for="kinName">Neck Extension</label>
+                                        <div class="">
+                                            <input type="text" id="First-Name" class="form-control" placeholder="Mouth Opening" name="Anestesia-Assistant">
+                                        </div>
+                                    </div> -->
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-6">
                                 <div class="mb-1">
-                                    <label class="form-label" for="Sector">Sector / Area</label>
-                                    <input type="text" id="Sector" class="form-control" placeholder="Sector" name="Sector">
+                                    <label class="form-label" for="kinName">Clinical Findings</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                             </div>
-                            <div class="col-md-12 col-12">
-                                <div class="mb-1">
-                                    <label class="form-label" for="last-name-column">Address</label>
-                                    <input type="text" id="Address" class="form-control" placeholder="Full Address" name="Address">
+                            <div class="col-md-6 col-6">
+                                <div class="row">
+
+                                    <div class="col-md-6 col-6">
+                                        <label class="form-label" for="kinName">Dentition</label>
+                                        <div class="">
+                                            <input type="text" id="First-Name" class="form-control" placeholder="Dentition" name="Anestesia-Assistant">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-6">
+                                        <label class="form-label" for="kinName">Neck Extension</label>
+                                        <div class="">
+                                            <input type="text" id="First-Name" class="form-control" placeholder="Neck Extension" name="Anestesia-Assistant">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <label class="form-label" for="kinName">MP</label>
+                                        <select class="form-select flex-grow-1" name="Blood-Group">
+                                            <option value=""> --</option>
+                                            <option value="A+">1</option>
+                                            <option value="A-">2</option>
+                                            <option value="B+">3</option>
+                                            <option value="B-">4</option>
+                                        </select>
+
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <label class="form-label" for="kinName">TWD</label>
+                                        <div class="">
+                                            <input type="text" id="First-Name" class="form-control" placeholder="" name="Anestesia-Assistant">
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
-                            <div class="col-md-4 col-6">
+
+
+
+                        </div>
+                        <div class="row">
+
+
+                            <div class="col-md-6 col-6">
                                 <div class="mb-1">
-                                    <label class="form-label" for="Country">Country</label>
-                                    <input type="text" id="Country" class="form-control" placeholder="091-xxxxxx" name="Country">
+                                    <label class="form-label" for="kinName">Investigation</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-6">
+                            <div class="col-md-6 col-6">
                                 <div class="mb-1">
-                                    <label class="form-label" for="Province">Province</label>
-                                    <input type="text" id="Province" class="form-control" placeholder="Province" name="Province">
+                                    <label class="form-label" for="kinName">Pre-Op Instruction</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-6">
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-6">
                                 <div class="mb-1">
-                                    <label class="form-label" for="last-name-column">City</label>
-                                    <input type="text" id="City" class="form-control" placeholder="City" name="City">
+                                    <label class="form-label" for="kinName">Remarks</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
-                            </div>
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-primary me-1 waves-effect waves-float waves-light">Submit</button>
-                                <button type="reset" class="btn btn-outline-secondary waves-effect">Reset</button>
                             </div>
                         </div>
+
                     </div>
                 </div>
+
             </div>
     </div>
 
