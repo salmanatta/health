@@ -10,7 +10,7 @@
 <script src="{{ url('/resources/js/core/app-menu.min.js') }}"></script>
 <script src="{{ url('/resources/js/core/app.min.js') }}"></script>
 <script src="{{ url('/resources/js/scripts/customizer.min.js') }}"></script>
-<script src="{{ url('/resources/vendors/js/pickers/flatpickr/flatpickr.min.js')}}"></script> -->
+<script src="{{ url('/resources/vendors/js/pickers/flatpickr/flatpickr.min.js')}}"></script>
 <script src="{{ url('/resources/vendors/js/calendar/fullcalendar.min.js') }}"></script>
 <script src="{{ url('/resources/js/scripts/pages/app-calendar-events.min.js')}}"></script>
 <script src="{{ url('/resources/js/scripts/pages/app-calendar.min.js')}}"></script>

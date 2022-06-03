@@ -5,17 +5,17 @@
         <div class="content-header-left col-md-9 col-12 mb-2">
             <div class="row breadcrumbs-top">
                 <div class="col-12">
-                    <h2 class="content-header-title float-start mb-0">Pre-Op Anesthesia Notes</h2>
-                    <div class="breadcrumb-wrapper">
+                    <h2 class="content-header-title float-start mb-0">Pre-Op Anestesia Notes</h2>
+                    <!-- <div class="breadcrumb-wrapper">
                         <ol class="breadcrumb">
-                            <!-- <li class="breadcrumb-item"><a href="index-2.html">Home</a>
-                    </li>
-                    <li class="breadcrumb-item"><a href="#">Patient 360</a>
-                    </li>
-                    <li class="breadcrumb-item active"><a href="#">MR Registration</a>
-                    </li> -->
+                            <li class="breadcrumb-item"><a href="index-2.html">Home</a>
+                            </li>
+                            <li class="breadcrumb-item"><a href="#">Patient 360</a>
+                            </li>
+                            <li class="breadcrumb-item active"><a href="#">MR Registration</a>
+                            </li>
                         </ol>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -24,6 +24,7 @@
             </div>
         </div>
     </div>
+    <!-- dd mm yy -->
     <div class="content-body">
         <!-- Basic Horizontal form layout section start -->
         <!-- Basic multiple Column Form section start -->
@@ -34,7 +35,7 @@
 
                         <div class="card">
                             <div class="card-header">
-                                <!-- <h4 class="card-title">Patient Demographics</h4> -->
+                                <h4 class="card-title">Patient Demographics</h4>
                             </div>
                             <div class="card-body">
                                 <div class="row">
@@ -96,7 +97,7 @@
                 <!--  anestesia consultant section -->
                 <div class="card">
                     <div class="card-header">
-                        <!-- <h4 class="card-title">Anestesiast</h4> -->
+                        <h4 class="card-title">Anesthesia</h4>
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -115,7 +116,7 @@
                             </div>
                             <div class="col-md-4 col-6">
                                 <div class="mb-1">
-                                    <label class="form-label" for="First-Name">Anestesia Incharge</label>
+                                    <label class="form-label" for="First-Name">Anestesia Registrar/MO</label>
                                     <!-- <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge"> -->
                                     <select class="form-select flex-grow-1" name="Blood-Group">
                                         <option value=""> Dr. Kashif Anwar</option>
@@ -129,7 +130,6 @@
                             <div class="col-md-4 col-6">
                                 <div class="mb-1">
                                     <label class="form-label" for="First-Name">Anestesia Assistant</label>
-                                    <!-- <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Assistant" name="Anestesia-Assistant"> -->
                                     <select class="form-select flex-grow-1" name="Blood-Group">
                                         <option value=""> Dr. Kashif Anwar</option>
                                         <option value="">Dr. Abidullah</option>
@@ -137,6 +137,7 @@
                                         <option value="">Dr. Abdul Nasir</option>
                                         <option value="">Dr. RafiUllah</option>
                                     </select>
+                                    <!-- <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Assistant" name="Anestesia-Assistant"> -->
                                 </div>
                             </div>
 
@@ -146,7 +147,7 @@
 
                 <div class="card">
                     <div class="card-header">
-                        <!-- <h4 class="card-title">Next of Kin</h4> -->
+                        <h4 class="card-title">Notes</h4>
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -286,7 +287,14 @@
                                     <div class="col-md-3 col-6">
                                         <label class="form-label" for="kinName">TWD</label>
                                         <div class="">
-                                            <input type="text" id="First-Name" class="form-control" placeholder="" name="Anestesia-Assistant">
+                                            <!-- <input type="text" id="First-Name" class="form-control" placeholder="" name="Anestesia-Assistant"> -->
+                                            <select class="form-select flex-grow-1" name="Blood-Group">
+                                                <option value=""> --</option>
+                                                <option value="A+">1</option>
+                                                <option value="A-">2</option>
+                                                <option value="B+">3</option>
+                                                <option value="B-">4</option>
+                                            </select>
                                         </div>
                                     </div>
 
@@ -321,6 +329,10 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-12">
+                <button type="submit" class="btn btn-primary me-1 waves-effect waves-float waves-light">Submit</button>
+                <button type="reset" class="btn btn-outline-secondary waves-effect">Reset</button>
+              </div>
 
                     </div>
                 </div>
