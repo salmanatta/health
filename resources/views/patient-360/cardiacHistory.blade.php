@@ -100,6 +100,7 @@
                             </div>
                         </div>
                 </div>
+
                 <div class="card">
                     <div class="card-header">
                         <!-- Nav tabs -->
@@ -169,6 +170,10 @@
                                         <div class="col-md-4 col-4">
                                             <div class="mb-1">
                                                 <label class="form-label" for="First-Name">CCS Class</label>
+                                        </div>
+                                        <div class="col-md-4 col-4">
+                                            <div class="mb-1">
+                                                <label class="form-label" for="First-Name">CCS Class</label>
                                                 <select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">-- Select --</option>
                                                     <option value="">Class-I</option>
@@ -203,6 +208,48 @@
                                         </div>
                                         <div class="col-md-4 col-4">
                                             <div class="mb-1">
+                                                <label class="form-label" for="First-Name">ASA Class</label>
+                                                <select class="form-select flex-grow-1" name="Blood-Group">
+                                                    <option value="">-- Select --</option>
+                                                    <option value="">Class-I</option>
+                                                    <option value="">Class-II</option>
+                                                    <option value="">Class-III</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 col-4">
+                                            <div class="mb-1">
+                                                <label class="form-label" for="First-Name">NYHA class</label>
+                                                <select class="form-select flex-grow-1" name="Blood-Group">
+                                                    <option value="">-- Select --</option>
+                                                    <option value="">Class-I</option>
+                                                    <option value="">Class-II</option>
+                                                    <option value="">Class-III</option>
+                                                <label class="form-label" for="First-Name">Left Ventricular Dysfunction</label>
+                                                <select class="form-select flex-grow-1" name="Blood-Group">
+                                                    <option value="">-- Select --</option>
+                                                    <option value="">Nil-Mild (EF > 50%)</option>
+                                                    <option value="">Moderate (EF 31-50%)</option>
+                                                    <option value="">Severe (EF 21-30%)</option>
+                                                    <option value="">Very Severe (EF 20% or less)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-4">
+                                            <div class="mb-1">
+                                                <label class="form-label" for="First-Name">Hypertension</label>
+                                                <select class="form-select flex-grow-1" name="Blood-Group">
+                                                    <option value="">-- Select --</option>
+                                                    <option value="">No</option>
+                                                    <option value="">Controlled on medication</option>
+                                                    <option value="">Uncontrolled</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-4">
+                                            <div class="mb-1">
                                                 <label class="form-label" for="First-Name">Left Ventricular Dysfunction</label>
                                                 <select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">-- Select --</option>
@@ -226,28 +273,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
 
-                                    <div class="form-check form-check-inline">
-                                        <label class="form-check-label" for="inlineCheckbox1">History of ARRYTHMIA</label>
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="col-md-3">
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                                <label class="form-check-label" for="inlineCheckbox1">Yes</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                                <label class="form-check-label" for="inlineCheckbox2">No</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                            
-                                    </div>
-                                </div>
                             </div>
 
                             <div class="tab-pane" id="medical-history-fill" role="tabpanel" aria-labelledby="medical-history-tab-fill">
@@ -260,6 +286,7 @@
                                                 <option value="Yes"> Yes</option>
                                                 <option value="No">No</option>
                                             </select>
+
                                 <div class="tab-pane" id="medical-history-fill" role="tabpanel" aria-labelledby="medical-history-tab-fill">
                                     <div class="row">
                                         <div class="col-md-4 col-4">
