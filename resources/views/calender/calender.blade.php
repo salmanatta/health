@@ -657,17 +657,35 @@
             </div>
             <div class="modal-body flex-grow-1 pb-sm-0 pb-3">
               <form class="event-form needs-validation" data-ajax="false" novalidate="novalidate">
+                  <div class="mb-1 position-relative">
+                      <label for="end-date" class="form-label">MR Number</label>
+                      <input type="text" class="form-control">
+                  </div>
+
+                  <div class="mb-1 position-relative">
+                      <label for="end-date" class="form-label">Patient Name</label>
+                      <input type="text" class="form-control">
+                  </div>
+                  <div class="mb-1 position-relative">
+                      <label for="end-date" class="form-label">Patient Type</label>
+                      <select class="select2 select-add-guests form-select w-100 select2-hidden-accessible" aria-hidden="true">
+                          <option value="Room 01">-- Select --</option>
+                          <option value="Room 01">Elective</option>
+                          <option value="Room 02">Emergency</option>
+                      </select>
+                  </div>
                 <div class="mb-1 position-relative">
-                  <label for="start-date" class="form-label">Start Date</label>
+                  <label for="start-date" class="form-label">Start Time</label>
                   <input type="datetime-local" class="form-control" id="startdate" name="start-date">
                 </div>
                 <div class="mb-1 position-relative">
-                  <label for="end-date" class="form-label">End Date</label>
+                  <label for="end-date" class="form-label">Tentative End Time</label>
                   <input type="datetime-local" class="form-control flatpickr-input" id="enddate">
                 </div>
                 <div class="mb-1">
                   <label for="event-url" class="form-label">OR Room</label>
                     <select class="select2 select-add-guests form-select w-100 select2-hidden-accessible" aria-hidden="true">
+                        <option value="Room 01">-- Select --</option>
                         <option value="Room 01">Room 01</option>
                         <option value="Room 02">Room 02</option>
                         <option value="Room 03">Room 03</option>
@@ -676,13 +694,10 @@
                         <option value="Room 06">Room 06</option>
                     </select>
                 </div>
-                  <div class="mb-1 position-relative">
-                      <label for="end-date" class="form-label">Patient Name</label>
-                      <input type="text" class="form-control">
-                  </div>
                   <div class="mb-1">
-                      <label for="event-url" class="form-label">CPT</label>
+                      <label for="event-url" class="form-label">Procedure (CPT)</label>
                       <select class="select2 select-add-guests form-select w-100 select2-hidden-accessible" aria-hidden="true">
+                          <option value="Room 01">-- Select --</option>
                           <option value="Room 01">CABG</option>
                           <option value="Room 02">CABG 1</option>
                           <option value="Room 03">CABG 2</option>
@@ -690,17 +705,28 @@
                       </select>
                   </div>
                 <div class="mb-1 select2-primary">
-                  <label for="event-guests" class="form-label">Consultant</label>
+                  <label for="event-guests" class="form-label">Primary Consultant</label>
                   <div class="position-relative">
                       <select class="form-select flex-grow-1">
+                          <option value="Room 01">-- Select --</option>
                           <option value="Room 01">Dr Abdul Nasir</option>
                           <option value="Room 02">Dr Muhammad Traiq</option>
                           <option value="Room 03">Dr Mubasir Zareen</option>
                           <option value="Room 04">Dr Ijaz Hussan</option>
                     </select>
+
+                      <label for="event-guests" class="form-label">Assistant Surgeon</label>
+                      <div class="position-relative">
+                          <select class="form-select flex-grow-1">
+                              <option value="Room 01">-- Select --</option>
+                              <option value="Room 01">Dr Bial </option>
+                              <option value="Room 02">Dr Kifayat</option>
+                          </select>
+
                       <div class="mb-1">
                           <label for="event-url" class="form-label">Anesthetic</label>
                           <select class="select2 select-add-guests form-select w-100 select2-hidden-accessible" aria-hidden="true">
+                              <option value="Room 01">-- Select --</option>
                               <option value="Room 01">Dr Kashif Anwar</option>
                               <option value="Room 02">Dr Izaz</option>
                               <option value="Room 03">Dr Kamran</option>
@@ -711,6 +737,12 @@
                   <label class="form-label">Description</label>
                   <textarea name="event-description-editor" id="event-description-editor" class="form-control"></textarea>
                 </div>
+                          <div class="mb-1">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+                          </div>
+
+
                 <div class="mb-1 d-flex">
                   <button type="submit" class="btn btn-primary add-event-btn me-1 waves-effect waves-float waves-light">Add</button>
                   <button type="button" class="btn btn-outline-secondary btn-cancel waves-effect" data-bs-dismiss="modal">Cancel</button>
