@@ -28,6 +28,7 @@ Route::group(['prefix' => 'patient-360'] , function() {
     Route::get('/', [\App\Http\Controllers\Controller::class, 'patientsList'])->name('patients');
     Route::get('/patient', [\App\Http\Controllers\Controller::class, 'newPatient'])->name('new-patient');
     Route::get('/cardiac-History', [\App\Http\Controllers\Controller::class, 'cardiacHistory'])->name('cardiac-History');
+    Route::get('/cath-echo-data', [\App\Http\Controllers\Controller::class, 'cathEchoData'])->name('cath-echo-data');
 });
 
 Route::group(['prefix' => 'anesthesia'] , function() {

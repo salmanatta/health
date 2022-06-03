@@ -98,12 +98,8 @@
 
 
                             </div>
-
                         </div>
                 </div>
-
-
-
 
                 <div class="card">
                     <div class="card-header">
@@ -119,12 +115,6 @@
                                 <a class="nav-link" id="messages-tab-fill" data-bs-toggle="tab" href="#messages-fill" role="tab" aria-controls="messages-fill" aria-selected="false">Pre-Op Medication</a>
                             </li>
                         </ul>
-
-
-
-
-
-
 
                     </div>
                     <div class="card-body">
@@ -202,6 +192,28 @@
                                                 <option value="">Uncontrolled</option>
                                             </select>
                                         </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label" for="inlineCheckbox1">History of ARRYTHMIA</label>
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="col-md-3">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                <label class="form-check-label" for="inlineCheckbox2">No</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                            
                                     </div>
                                 </div>
                             </div>

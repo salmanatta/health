@@ -40,6 +40,10 @@ class Controller extends BaseController
 
         return view('anesthesia.preOpAnesthesiaNotes');
     }
+    public function cathEchoData(){
+
+        return view('patient-360.cathEchoData');
+    }
 
 
     public function testSQL()
