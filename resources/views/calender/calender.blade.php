@@ -356,7 +356,9 @@
                                                     <div class="fc-event-main">
                                                       <div class="fc-event-main-frame">
                                                         <div class="fc-event-title-container">
-                                                          <div class="fc-event-title fc-sticky">Doctor's Appointment</div>
+                                                          <div class="fc-event-title fc-sticky">Appointment
+                                                          <p>This is tCPT</p>
+                                                          </div>
                                                         </div>
                                                       </div>
                                                     </div>
@@ -739,7 +741,8 @@
                 </div>
                           <div class="mb-1">
                               <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                              <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+                              <label class="form-check-label" for="inlineCheckbox1">Confirmed ?
+                              </label>
                           </div>
 
 
