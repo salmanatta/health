@@ -100,6 +100,39 @@
                             </div>
                         </div>
                 </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="cardiac-history-tab-fill" data-bs-toggle="tab" href="#cardiac-history-fill" role="tab" aria-controls="cardiac-history-fill" aria-selected="true">Cardiac History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="medical-history-tab-fill" data-bs-toggle="tab" href="#medical-history-fill" role="tab" aria-controls="medical-history-fill" aria-selected="false">Medical History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="messages-tab-fill" data-bs-toggle="tab" href="#messages-fill" role="tab" aria-controls="messages-fill" aria-selected="false">Pre-Op Medication</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="card-body">
+                        <!-- Tab panes -->
+                        <div class="tab-content pt-1">
+                            <div class="tab-pane active" id="cardiac-history-fill" role="tabpanel" aria-labelledby="cardiac-history-tab-fill">
+                                <div class="row">
+                                    <div class="col-md-4 col-4">
+                                        <div class="mb-1">
+                                            <label class="form-label" for="First-Name">Angina Duration</label>
+                                            <select class="form-select flex-grow-1" name="Blood-Group">
+                                                <option value="">-- Select --</option>
+                                                <option value="">Asymptomatic</option>
+                                                <option value="">
+                                                    < 1 Week>
+                                                </option>
+                                                <option value="">1-6 weeks</option>
+                                            </select>
             </div>
             <div class="row">
                 <div class="col-12">
@@ -133,6 +166,10 @@
                                                     <option value="">1-6 weeks</option>
                                                 </select>
                                             </div>
+                                        </div>
+                                        <div class="col-md-4 col-4">
+                                            <div class="mb-1">
+                                                <label class="form-label" for="First-Name">CCS Class</label>
                                         </div>
                                         <div class="col-md-4 col-4">
                                             <div class="mb-1">
@@ -171,6 +208,48 @@
                                         </div>
                                         <div class="col-md-4 col-4">
                                             <div class="mb-1">
+                                                <label class="form-label" for="First-Name">ASA Class</label>
+                                                <select class="form-select flex-grow-1" name="Blood-Group">
+                                                    <option value="">-- Select --</option>
+                                                    <option value="">Class-I</option>
+                                                    <option value="">Class-II</option>
+                                                    <option value="">Class-III</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 col-4">
+                                            <div class="mb-1">
+                                                <label class="form-label" for="First-Name">NYHA class</label>
+                                                <select class="form-select flex-grow-1" name="Blood-Group">
+                                                    <option value="">-- Select --</option>
+                                                    <option value="">Class-I</option>
+                                                    <option value="">Class-II</option>
+                                                    <option value="">Class-III</option>
+                                                <label class="form-label" for="First-Name">Left Ventricular Dysfunction</label>
+                                                <select class="form-select flex-grow-1" name="Blood-Group">
+                                                    <option value="">-- Select --</option>
+                                                    <option value="">Nil-Mild (EF > 50%)</option>
+                                                    <option value="">Moderate (EF 31-50%)</option>
+                                                    <option value="">Severe (EF 21-30%)</option>
+                                                    <option value="">Very Severe (EF 20% or less)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-4">
+                                            <div class="mb-1">
+                                                <label class="form-label" for="First-Name">Hypertension</label>
+                                                <select class="form-select flex-grow-1" name="Blood-Group">
+                                                    <option value="">-- Select --</option>
+                                                    <option value="">No</option>
+                                                    <option value="">Controlled on medication</option>
+                                                    <option value="">Uncontrolled</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-4">
+                                            <div class="mb-1">
                                                 <label class="form-label" for="First-Name">Left Ventricular Dysfunction</label>
                                                 <select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">-- Select --</option>
@@ -194,6 +273,20 @@
                                         </div>
                                     </div>
                                 </div>
+
+                            </div>
+
+                            <div class="tab-pane" id="medical-history-fill" role="tabpanel" aria-labelledby="medical-history-tab-fill">
+                                <div class="row">
+                                    <div class="col-md-4 col-4">
+                                        <div class="mb-1">
+                                            <label class="form-label" for="First-Name">Diabetes</label>
+                                            <select class="form-select flex-grow-1" name="Blood-Group">
+                                                <option value="">-- Select --</option>
+                                                <option value="Yes"> Yes</option>
+                                                <option value="No">No</option>
+                                            </select>
+
                                 <div class="tab-pane" id="medical-history-fill" role="tabpanel" aria-labelledby="medical-history-tab-fill">
                                     <div class="row">
                                         <div class="col-md-4 col-4">
