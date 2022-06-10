@@ -19,10 +19,7 @@
         <!-- Basic Horizontal form layout section start -->
         <!-- Basic multiple Column Form section start -->
         <section id="multiple-column-form">
-
-
             <form class="form">
-
                 <div class="card">
                     <div class="card-header">
                         <h4 class="card-title">Patient Demographics</h4>
@@ -49,7 +46,6 @@
                             </div>
                             <div class="col-md-1 col-6">
                                 <div class="mb-1">
-
                                     <label class="form-label" for="DMY">DMY</label>
                                     <input type="text" id="Age" class="form-control" placeholder="Age" value="Years" name="Age">
                                 </div>
@@ -60,10 +56,7 @@
                                     <input type="Date" id="First-Name" class="form-control" placeholder="Notes Date" name="Written-By">
                                 </div>
                             </div>
-
-
                         </div>
-
                         <div class="row">
                             <div class="col-md-4 col-6">
                                 <div class="mb-1">
@@ -77,16 +70,11 @@
                                     <input type="Date" id="First-Name" class="form-control" placeholder="Notes Date" name="Written-By">
                                 </div>
                             </div>
-
-
                         </div>
-
                     </div>
                 </div>
-
-
                 <!--  anestesia consultant section -->
-                <div class="card card-border">
+                <div class="card ">
                     <div class="card-header">
                         <h4 class="card-title">Cath / Angio Data</h4>
                     </div>
@@ -145,19 +133,13 @@
                                             </div>
                                         </div>
                                     </div>
-
-
                                     <div class="col-md-6 col-6">
-
-
                                     </div>
-
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 ">
                                 <div class=" card card-border mt-1">
                                     <div class="card-body">
-
                                         <div class="row mt-1">
                                             <div class="d-flex">
                                                 <div class="form-check form-check-inline ">
@@ -170,51 +152,37 @@
                                             <div class="col-md-6 col-6">
                                                 <label class="form-label" for="kinName">Anterobasal</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="Anterobasal" name="Written-By">
-
                                             </div>
                                             <div class="col-md-6 col-6">
                                                 <label class="form-label" for="kinName">Diaphragmatic</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="Diaphragmatic" name="Written-By">
-
                                             </div>
                                             <div class="col-md-6 col-6">
                                                 <label class="form-label" for="kinName">Anteriolateral</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="Anteriolateral" name="Written-By">
-
                                             </div>
                                             <div class="col-md-6 col-6">
                                                 <label class="form-label" for="kinName">Posterobasal</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="Posterobasal" name="Written-By">
-
                                             </div>
                                             <div class="col-md-6 col-6">
                                                 <label class="form-label" for="kinName">Apical</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="Apical" name="Written-By">
-
                                             </div>
                                             <div class="col-md-6 col-6">
                                                 <label class="form-label" for="kinName">Total CASS</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="Total CASS" name="Written-By">
-
                                             </div>
-
                                         </div>
-
                                     </div>
-
-
                                 </div>
                             </div>
-
                         </div>
-
-
                     </div>
                 </div>
-
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title">Notes</h4>
+                        <h4 class="card-title">Echo Data</h4>
                     </div>
                     <div class="card-body">
                         <div class="row mt-1 align-items-center">
@@ -242,19 +210,16 @@
                                                 <label class="form-check-label" for="inlineCheckbox1">Aortic Dis</label>
                                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                                             </div>
-
                                         </div>
-
                                     </div>
                                     <div class="col-md-2 col-6">
                                         <label class="form-label" for="kinName">Stenosis</label>
                                         <select class="form-select flex-grow-1" name="Stenosis">
-                                             <option value="">--Select--</option>
+                                            <option value="">--Select--</option>
                                             <option value="">Mild</option>
                                             <option value="">Moderate</option>
                                             <option value="">Sever</option>
                                         </select>
-
                                     </div>
                                     <div class="col-md-2 col-6">
                                         <label class="form-label" for="kinName">Regurg</label>
@@ -264,35 +229,29 @@
                                             <option value="">Moderate</option>
                                             <option value="">Sever</option>
                                         </select>
-
                                     </div>
                                     <div class="col-md-1 col-6">
                                         <label class="form-label" for="kinName">Gradient</label>
                                         <input type="Number" id="First-Name" class="form-control" placeholder="" name="Written-By">
-
                                     </div>
                                     <div class="col-md-1 col-6">
-
-
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <label class="form-label" for="kinName">Pathology</label>
                                         <select class="form-select flex-grow-1" name="Blood-Group">
-                                                <option value="">--Select--</option>
-                                                <option value="">Nil</option>
-                                                <option value="">Rheumatic</option>
-                                                <option value="">Congenital</option>
-                                                <option value="">Ischemic</option>
-                                                <option value="">Marfan's</option>
-                                                <option value="">Myx. Deg</option>
-                                                <option value="">Calcific</option>
-                                                <option value="">Endocarditis</option>
-                                                <option value="">Pros. Valve Dy</option>
-                                                <option value="">LA Clot</option>
+                                            <option value="">--Select--</option>
+                                            <option value="">Nil</option>
+                                            <option value="">Rheumatic</option>
+                                            <option value="">Congenital</option>
+                                            <option value="">Ischemic</option>
+                                            <option value="">Marfan's</option>
+                                            <option value="">Myx. Deg</option>
+                                            <option value="">Calcific</option>
+                                            <option value="">Endocarditis</option>
+                                            <option value="">Pros. Valve Dy</option>
+                                            <option value="">LA Clot</option>
                                         </select>
-
                                     </div>
-
                                 </div>
                                 <div class="row mt-1">
                                     <div class="col-md-2 col-6  d-flex align-items-center">
@@ -301,9 +260,7 @@
                                                 <label class="form-check-label" for="inlineCheckbox1">Mitral Dis</label>
                                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                                             </div>
-
                                         </div>
-
                                     </div>
                                     <div class="col-md-2 col-6">
                                         <!-- <label class="form-label" for="kinName">Stenosis</label> -->
@@ -313,45 +270,38 @@
                                             <option value="">Moderate</option>
                                             <option value="">Sever</option>
                                         </select>
-
                                     </div>
                                     <div class="col-md-2 col-6">
                                         <!-- <label class="form-label" for="kinName">Regurg</label> -->
                                         <select class="form-select flex-grow-1" name="Blood-Group">
-                                             <option value="">--Select--</option>
+                                            <option value="">--Select--</option>
                                             <option value="">Mild</option>
                                             <option value="">Moderate</option>
                                             <option value="">Sever</option>
                                         </select>
-
                                     </div>
                                     <div class="col-md-1 col-6">
                                         <!-- <label class="form-label" for="kinName">Gradient</label> -->
                                         <input type="Number" id="First-Name" class="form-control" placeholder="" name="Written-By">
-
                                     </div>
                                     <div class="col-md-1 col-6">
-
-
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <!-- <label class="form-label" for="kinName">Pathology</label> -->
                                         <select class="form-select flex-grow-1" name="Blood-Group">
-                                                <option value="">--Select--</option>
-                                                <option value="">Nil</option>
-                                                <option value="">Rheumatic</option>
-                                                <option value="">Congenital</option>
-                                                <option value="">Ischemic</option>
-                                                <option value="">Marfan's</option>
-                                                <option value="">Myx. Deg</option>
-                                                <option value="">Calcific</option>
-                                                <option value="">Endocarditis</option>
-                                                <option value="">Pros. Valve Dy</option>
-                                                <option value="">LA Clot</option>
+                                            <option value="">--Select--</option>
+                                            <option value="">Nil</option>
+                                            <option value="">Rheumatic</option>
+                                            <option value="">Congenital</option>
+                                            <option value="">Ischemic</option>
+                                            <option value="">Marfan's</option>
+                                            <option value="">Myx. Deg</option>
+                                            <option value="">Calcific</option>
+                                            <option value="">Endocarditis</option>
+                                            <option value="">Pros. Valve Dy</option>
+                                            <option value="">LA Clot</option>
                                         </select>
-
                                     </div>
-
                                 </div>
                                 <div class="row mt-1">
                                     <div class="col-md-2 col-6  d-flex align-items-center">
@@ -360,9 +310,7 @@
                                                 <label class="form-check-label" for="inlineCheckbox1">Tricuspid Dis</label>
                                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                                             </div>
-
                                         </div>
-
                                     </div>
                                     <div class="col-md-2 col-6">
                                         <!-- <label class="form-label" for="kinName">Stenosis</label> -->
@@ -372,7 +320,6 @@
                                             <option value="">Moderate</option>
                                             <option value="">Sever</option>
                                         </select>
-
                                     </div>
                                     <div class="col-md-2 col-6">
                                         <!-- <label class="form-label" for="kinName">Regurg</label> -->
@@ -382,35 +329,29 @@
                                             <option value="">Moderate</option>
                                             <option value="">Sever</option>
                                         </select>
-
                                     </div>
                                     <div class="col-md-1 col-6">
                                         <!-- <label class="form-label" for="kinName">Gradient</label> -->
                                         <input type="Number" id="First-Name" class="form-control" placeholder="" name="Written-By">
-
                                     </div>
                                     <div class="col-md-1 col-6">
-
-
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <!-- <label class="form-label" for="kinName">Pathology</label> -->
                                         <select class="form-select flex-grow-1" name="Blood-Group">
-                                        <option value="">--Select--</option>
-                                                <option value="">Nil</option>
-                                                <option value="">Rheumatic</option>
-                                                <option value="">Congenital</option>
-                                                <option value="">Ischemic</option>
-                                                <option value="">Marfan's</option>
-                                                <option value="">Myx. Deg</option>
-                                                <option value="">Calcific</option>
-                                                <option value="">Endocarditis</option>
-                                                <option value="">Pros. Valve Dy</option>
-                                                <option value="">LA Clot</option>
+                                            <option value="">--Select--</option>
+                                            <option value="">Nil</option>
+                                            <option value="">Rheumatic</option>
+                                            <option value="">Congenital</option>
+                                            <option value="">Ischemic</option>
+                                            <option value="">Marfan's</option>
+                                            <option value="">Myx. Deg</option>
+                                            <option value="">Calcific</option>
+                                            <option value="">Endocarditis</option>
+                                            <option value="">Pros. Valve Dy</option>
+                                            <option value="">LA Clot</option>
                                         </select>
-
                                     </div>
-
                                 </div>
                                 <div class="row mt-1">
                                     <div class="col-md-2 col-6  d-flex align-items-center">
@@ -419,9 +360,7 @@
                                                 <label class="form-check-label" for="inlineCheckbox1">Pulmonary Dis</label>
                                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                                             </div>
-
                                         </div>
-
                                     </div>
                                     <div class="col-md-2 col-6">
                                         <!-- <label class="form-label" for="kinName">Stenosis</label> -->
@@ -431,7 +370,6 @@
                                             <option value="">Moderate</option>
                                             <option value="">Sever</option>
                                         </select>
-
                                     </div>
                                     <div class="col-md-2 col-6">
                                         <!-- <label class="form-label" for="kinName">Regurg</label> -->
@@ -441,32 +379,28 @@
                                             <option value="">Moderate</option>
                                             <option value="">Sever</option>
                                         </select>
-
                                     </div>
                                     <div class="col-md-1 col-6">
                                         <!-- <label class="form-label" for="kinName">Gradient</label> -->
                                         <input type="Number" id="First-Name" class="form-control" placeholder="" name="Written-By">
-
                                     </div>
                                     <div class="col-md-1 col-6">
-
-
                                     </div>
                                     <div class="col-md-3 col-6">
                                         <!-- <label class="form-label" for="kinName">Pathology</label> -->
                                         <select class="form-select flex-grow-1" name="Blood-Group">
-                                           
+
                                             <option value="">--Select--</option>
-                                                <option value="">Nil</option>
-                                                <option value="">Rheumatic</option>
-                                                <option value="">Congenital</option>
-                                                <option value="">Ischemic</option>
-                                                <option value="">Marfan's</option>
-                                                <option value="">Myx. Deg</option>
-                                                <option value="">Calcific</option>
-                                                <option value="">Endocarditis</option>
-                                                <option value="">Pros. Valve Dy</option>
-                                                <option value="">LA Clot</option>
+                                            <option value="">Nil</option>
+                                            <option value="">Rheumatic</option>
+                                            <option value="">Congenital</option>
+                                            <option value="">Ischemic</option>
+                                            <option value="">Marfan's</option>
+                                            <option value="">Myx. Deg</option>
+                                            <option value="">Calcific</option>
+                                            <option value="">Endocarditis</option>
+                                            <option value="">Pros. Valve Dy</option>
+                                            <option value="">LA Clot</option>
                                         </select>
 
                                     </div>
@@ -501,34 +435,19 @@
                                                 <label class="form-label" for="kinName">PAP</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="PAP" name="Written-By">
                                             </div>
-
                                         </div>
-
                                     </div>
-
-
                                 </div>
                             </div>
-
                         </div>
-
-
-
-
                         <div class="row mt-1">
                             <div class="col-12">
                                 <button type="submit" class="btn btn-primary me-1 waves-effect waves-float waves-light">Submit</button>
                                 <button type="reset" class="btn btn-outline-secondary waves-effect">Reset</button>
                             </div>
-
                         </div>
-
                     </div>
                 </div>
             </form>
-
-
     </div>
-
-
     @endsection
