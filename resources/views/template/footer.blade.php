@@ -16,6 +16,7 @@
 <script src="{{ url('/resources/js/scripts/pages/app-calendar.min.js')}}"></script>
 <script src="{{ url('/resources/vendors/js/forms/select/select2.full.min.js')}}"></script>
 
+<script src="{{ url('/resources/js/custom-js.js')}}"></script>
 
 
 <!-- BEGIN: Page JS-->
