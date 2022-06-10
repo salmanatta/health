@@ -106,7 +106,7 @@
 
             <div class="row">
                 <div class="col-md-6 col-lg-6">
-                    <div class="card" style="box-shadow: 0 4px 24px 0 rgb(34 41 47 / 8%) !important;">
+                    <div class="card" style="box-shadow: 0 4px 24px 0 rgb(34 41 47 / 7%) !important;">
                         <div class="card-header">
                             <div class="form-check form-switch">
                                 <input type="checkbox" class="form-check-input" id="historyofArrythima">
@@ -230,7 +230,7 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <div class="card">
+                    <div class="card" style="box-shadow: 0 4px 24px 0 rgb(34 41 47 / 7%) !important;">
                         <div class="card-header">
                             <div class="form-check form-switch">
                                 <input type="checkbox" class="form-check-input" id="customSwitch1">
