@@ -36,8 +36,12 @@
                 </div>
                 <div class="col-md-4 col-lg-4">
                     <div class="mb-1">
-                        <label for="ccsclass">CCS class:<span class="text-danger">*</span> </label>
-                        <span class="B-Coeff" style="float: right;color: deeppink">B-Coeff: <span id="Bccsclass">0</span> </span>
+                        <label for="ccsclass">CCS class:
+                            <span class="text-danger">*</span>
+                        </label>
+                        <span class="B-Coeff" style="float: right;color: deeppink">B-Coeff:
+                            <span id="Bccsclass">0</span>
+                        </span>
                         <select class="form-control" name="ccsclass" id="ccsclass" onchange="SetCcsCoeff(this.value)">
                             <option value="Class-I">Class-I</option>
                             <option value="Class-II">Class-II</option>
@@ -50,17 +54,13 @@
                 </div>
                 <div class="col-md-4 col-lg-4">
                     <div class="mb-1">
-                        <label for="agnduration">Angina Duration:</label>
+                        <label for="agnduration">ASA class:</label>
                         <select class="form-control" name="agnduration" id="agnduration" >
-                            <option value="Asymptomatic">Asymptomatic</option>
-                            <option value="< 1 Week">&lt; 1 Week</option>
-                            <option value="1-6 Weeks">1-6 Weeks</option>
-                            <option value="3-6 Months">3-6 Months</option>
-                            <option value="6-12 Weeks">6-12 Weeks</option>
-                            <option value="6-12 Months">6-12 Months</option>
-                            <option value="1-5 Years">1-5 Years</option>
-                            <option value="5-10 Years">5-10 Years</option>
-                            <option value="> 10 Years">&gt; 10 Years</option>
+                            <option value="Class-I">Class-I</option>
+                            <option value="Class-II">Class-II</option>
+                            <option value="Class-III">Class-III</option>
+                            <option value="Class-IV">Class-IV</option>
+                            <option value="Class-V">Class-V</option>
                         </select>
                     </div>
                 </div>
@@ -71,7 +71,12 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="mb-1">
                         <div class="form-group">
-                            <label for="nyhaclass">NYHA class:</label>
+                            <label for="nyhaclass">NYHA class:
+                                <span class="text-danger">*</span>
+                            </label>
+                            <span class="B-Coeff" style="float: right;color: deeppink">B-Coeff: 0.1070545
+                            <span id="Bccsclass">0</span>
+                        </span>
                             <select class="form-control" name="nyhaclass" id="nyhaclass" onchange="SetNyhaCoeff(this.value,'Bnyha')">
                                 <option value="Class-I">Class-I</option>
                                 <option value="Class-II">Class-II</option>
@@ -84,6 +89,9 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="form-group">
                         <label for="congcardfaliure">Left Ventricular Dysfunction</label>
+                        <span class="B-Coeff" style="float: right;color: deeppink">B-Coeff:
+                            <span id="Bccsclass">0</span>
+                        </span>
                         <select class="form-control" name="congcardfaliure" id="congcardfaliure" onchange="SetLeftVentricular(this.value,'BLeftVentricular')">
                             <option value="Nil-Mild (EF > 50%)">Nil-Mild (EF &gt; 50%)</option>
                             <option value="Moderate (EF 31-50%)">Moderate (EF 31-50%)</option>
@@ -106,7 +114,7 @@
 
             <div class="row">
                 <div class="col-md-6 col-lg-6">
-                    <div class="card" style="box-shadow: 0 4px 24px 0 rgb(34 41 47 / 7%) !important;">
+                    <div class="card" style="box-shadow: 0 4px 24px 0 rgb(34 41 47/7%) !important;">
                         <div class="card-header">
                             <div class="form-check form-switch">
                                 <input type="checkbox" class="form-check-input" id="historyofArrythima">
@@ -138,9 +146,11 @@
                                     <div class="form-group">
                                         <label for="hypertension">AV.Block:</label>
                                         <select class="form-control" name="hypertension" id="avblock">
-                                            <option value="No">No</option>
-                                            <option value="Controlled on medication">Controlled on medication</option>
-                                            <option value="Uncontrolled">Uncontrolled</option>
+                                            <option value="Nil">Nil</option>
+                                            <option value="1stDegree">1st Degree</option>
+                                            <option value="2ndDegree:TypeI">2nd Degree: TypeI</option>
+                                            <option value="2ndDegree:TypeII">2nd Degree: TypeII</option>
+                                            <option value="3rdDegree">3rd Degree</option>
                                         </select>
                                     </div>
                                 </div>
@@ -148,9 +158,10 @@
                                     <div class="form-group">
                                         <label for="hypertension">BBB.:</label>
                                         <select class="form-control" name="hypertension" id="bbb">
-                                            <option value="No">No</option>
-                                            <option value="Controlled on medication">Controlled on medication</option>
-                                            <option value="Uncontrolled">Uncontrolled</option>
+                                            <option value="Nil">Nil</option>
+                                            <option value="RBBB">RBBB</option>
+                                            <option value="LAHB">LAHB</option>
+                                            <option value="LPHB">LPHB</option>
                                         </select>
                                     </div>
                                 </div>
@@ -165,8 +176,8 @@
                                 <label for="hypertension">Rheumatic Fever:</label>
                                 <select class="form-control" name="hypertension" id="hypertension">
                                     <option value="No">No</option>
-                                    <option value="Controlled on medication">Controlled on medication</option>
-                                    <option value="Uncontrolled">Uncontrolled</option>
+                                    <option value="Past">Past</option>
+                                    <option value="Active">Active</option>
                                 </select>
                             </div>
                         </div>
@@ -180,8 +191,8 @@
                                 <span class="B-Coeff" style="float: right;color: deeppink">B-Coeff: 0</span>
                                 <select class="form-control" name="hypertension" id="hypertension">
                                     <option value="No">No</option>
-                                    <option value="Controlled on medication">Controlled on medication</option>
-                                    <option value="Uncontrolled">Uncontrolled</option>
+                                    <option value="31-55 mmHg">31-55 mmHg</option>
+                                    <option value=">55 mmHg">&gt;55 mmHg</option>
                                 </select>
                             </div>
                         </div>
@@ -246,10 +257,16 @@
                                                 <div class="form-group">
                                                     <label for="hypertension">Invasive Int-1:</label>
                                                     <select class="form-control" name="hypertension" id="hypertension">
-                                                        <option value="None">No</option>
-                                                        <option value="Recent">Yes: Recent (Within 90 days)</option>
-                                                        <option value="Old">Yes: Old (&gt;90 days)</option>
-                                                        <option value="Unknown">Unknown</option>
+                                                        <option value="Nil">Nil</option>
+                                                        <option value="PTCA">PTCA</option>
+                                                        <option value="Stent(Ordinary)">Stent(Ordinary)</option>
+                                                        <option value="Stent(Medicated)">Stent(Medicated)</option>
+                                                        <option value="Atherectomy">Atherectomy</option>
+                                                        <option value="PTMC">PTMC</option>
+                                                        <option value="PulmonaryValvotomy">Pulmonary Valvotomy</option>
+                                                        <option value="ASDClosure">ASD Closure</option>
+                                                        <option value="PDAClosure">PDA Closure</option>
+                                                        <option value="Others">Others</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -261,10 +278,16 @@
                                                 <div class="form-group">
                                                     <label for="hypertension">Invasive Int-2:</label>
                                                     <select class="form-control" name="hypertension" id="hypertension">
-                                                        <option value="None">No</option>
-                                                        <option value="Recent">Yes: Recent (Within 90 days)</option>
-                                                        <option value="Old">Yes: Old (&gt;90 days)</option>
-                                                        <option value="Unknown">Unknown</option>
+                                                        <option value="Nil">Nil</option>
+                                                        <option value="PTCA">PTCA</option>
+                                                        <option value="Stent(Ordinary)">Stent(Ordinary)</option>
+                                                        <option value="Stent(Medicated)">Stent(Medicated)</option>
+                                                        <option value="Atherectomy">Atherectomy</option>
+                                                        <option value="PTMC">PTMC</option>
+                                                        <option value="PulmonaryValvotomy">Pulmonary Valvotomy</option>
+                                                        <option value="ASDClosure">ASD Closure</option>
+                                                        <option value="PDAClosure">PDA Closure</option>
+                                                        <option value="Others">Others</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -276,10 +299,16 @@
                                                 <div class="form-group">
                                                     <label for="hypertension">Invasive Int-3:</label>
                                                     <select class="form-control" name="hypertension" id="hypertension">
-                                                        <option value="None">No</option>
-                                                        <option value="Recent">Yes: Recent (Within 90 days)</option>
-                                                        <option value="Old">Yes: Old (&gt;90 days)</option>
-                                                        <option value="Unknown">Unknown</option>
+                                                        <option value="Nil">Nil</option>
+                                                        <option value="PTCA">PTCA</option>
+                                                        <option value="Stent(Ordinary)">Stent(Ordinary)</option>
+                                                        <option value="Stent(Medicated)">Stent(Medicated)</option>
+                                                        <option value="Atherectomy">Atherectomy</option>
+                                                        <option value="PTMC">PTMC</option>
+                                                        <option value="PulmonaryValvotomy">Pulmonary Valvotomy</option>
+                                                        <option value="ASDClosure">ASD Closure</option>
+                                                        <option value="PDAClosure">PDA Closure</option>
+                                                        <option value="Others">Others</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -290,12 +319,8 @@
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label for="hypertension">D.O.L Inv.Int</label>
-                                                    <select class="form-control" name="hypertension" id="hypertension">
-                                                        <option value="None">No</option>
-                                                        <option value="Recent">Yes: Recent (Within 90 days)</option>
-                                                        <option value="Old">Yes: Old (&gt;90 days)</option>
-                                                        <option value="Unknown">Unknown</option>
-                                                    </select>
+                                                    <input placeholder="" class="form-control"  name="MIValue" type="date" value="">
+                                                    <span class="field-validation-valid" data-valmsg-for="MIValue" data-valmsg-replace="true"></span>
                                                 </div>
                                             </div>
                                         </div>
@@ -306,12 +331,14 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <label for="hypertension">Prev "Q Wave" MI's:</label>
+                                                    <label for="hypertension">Previous Heart Surgery-1:</label>
                                                     <select class="form-control" name="hypertension" id="hypertension">
-                                                        <option value="None">No</option>
-                                                        <option value="Recent">Yes: Recent (Within 90 days)</option>
-                                                        <option value="Old">Yes: Old (&gt;90 days)</option>
-                                                        <option value="Unknown">Unknown</option>
+                                                        <option value="CABG">CABG</option>
+                                                        <option value="Valve Repair">Valve Repair</option>
+                                                        <option value="Valve Replacement">Valve Replacement</option>
+                                                        <option value="Congenital Surgery">Congenital Surgery</option>
+                                                        <option value="Others Open Heart">Others Open Heart</option>
+                                                        <option value="Others Closed Heart">Others Closed Heart</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -321,12 +348,14 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <label for="hypertension">Prev "Q Wave" MI's:</label>
+                                                    <label for="hypertension">Previous Heart Surgery-2:</label>
                                                     <select class="form-control" name="hypertension" id="hypertension">
-                                                        <option value="None">No</option>
-                                                        <option value="Recent">Yes: Recent (Within 90 days)</option>
-                                                        <option value="Old">Yes: Old (&gt;90 days)</option>
-                                                        <option value="Unknown">Unknown</option>
+                                                        <option value="CABG">CABG</option>
+                                                        <option value="Valve Repair">Valve Repair</option>
+                                                        <option value="Valve Replacement">Valve Replacement</option>
+                                                        <option value="Congenital Surgery">Congenital Surgery</option>
+                                                        <option value="Others Open Heart">Others Open Heart</option>
+                                                        <option value="Others Closed Heart">Others Closed Heart</option>
                                                     </select>
                                                 </div>
                                             </div>
