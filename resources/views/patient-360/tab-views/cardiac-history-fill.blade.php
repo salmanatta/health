@@ -127,7 +127,7 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="checkbox" id="a-fib" value="checked" checked="">
+                                                <input class="form-check-input" type="checkbox" id="a-fib" value="checked">
                                                 <label class="form-check-label" for="a-fib">A-Fib</label>
                                             </div>
                                         </div>
@@ -136,7 +136,7 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="checkbox" id="vent-arrhy" value="checked" checked="">
+                                                <input class="form-check-input" type="checkbox" id="vent-arrhy" value="checked">
                                                 <label class="form-check-label" for="vent-arrhy">Vent Arrhy</label>
                                             </div>
                                         </div>
@@ -244,7 +244,7 @@
                     <div class="card" style="box-shadow: 0 4px 24px 0 rgb(34 41 47 / 7%) !important;">
                         <div class="card-header">
                             <div class="form-check form-switch">
-                                <input type="checkbox" class="form-check-input" id="customSwitch1">
+                                <input type="checkbox" class="form-check-input" id="Prev-CV-Intervention">
                                 <label class="card-title form-check-label" for="customSwitch1">Prev .CV Intervention</label>
                             </div>
                         </div>
@@ -256,7 +256,7 @@
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label for="hypertension">Invasive Int-1:</label>
-                                                    <select class="form-control" name="hypertension" id="hypertension">
+                                                    <select class="form-control" name="Invasive-Int-1" id="Invasive-Int-1">
                                                         <option value="Nil">Nil</option>
                                                         <option value="PTCA">PTCA</option>
                                                         <option value="Stent(Ordinary)">Stent(Ordinary)</option>
@@ -277,7 +277,7 @@
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label for="hypertension">Invasive Int-2:</label>
-                                                    <select class="form-control" name="hypertension" id="hypertension">
+                                                    <select class="form-control" name="Invasive-Int-2" id="Invasive-Int-2">
                                                         <option value="Nil">Nil</option>
                                                         <option value="PTCA">PTCA</option>
                                                         <option value="Stent(Ordinary)">Stent(Ordinary)</option>
@@ -298,7 +298,7 @@
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label for="hypertension">Invasive Int-3:</label>
-                                                    <select class="form-control" name="hypertension" id="hypertension">
+                                                    <select class="form-control" name="Invasive-Int-3" id="Invasive-Int-3">
                                                         <option value="Nil">Nil</option>
                                                         <option value="PTCA">PTCA</option>
                                                         <option value="Stent(Ordinary)">Stent(Ordinary)</option>
@@ -319,7 +319,7 @@
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label for="hypertension">D.O.L Inv.Int</label>
-                                                    <input placeholder="" class="form-control"  name="MIValue" type="date" value="">
+                                                    <input placeholder="" class="form-control"  name="DOL-Inv-Int" type="date" value="" id="DOL-Inv-Int">
                                                     <span class="field-validation-valid" data-valmsg-for="MIValue" data-valmsg-replace="true"></span>
                                                 </div>
                                             </div>
@@ -332,7 +332,9 @@
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label for="hypertension">Previous Heart Surgery-1:</label>
-                                                    <select class="form-control" name="hypertension" id="hypertension">
+                                                    <span class="B-Coeff" style="float: right;color: deeppink">B-Coeff: 0</span>
+                                                    <select class="form-control" name="Previous-Heart-Surgery-1" id="Previous-Heart-Surgery-1">
+                                                        <option selected="selected" value="Nil">Nil</option>
                                                         <option value="CABG">CABG</option>
                                                         <option value="Valve Repair">Valve Repair</option>
                                                         <option value="Valve Replacement">Valve Replacement</option>
@@ -349,7 +351,9 @@
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label for="hypertension">Previous Heart Surgery-2:</label>
-                                                    <select class="form-control" name="hypertension" id="hypertension">
+                                                    <span class="B-Coeff" style="float: right;color: deeppink">B-Coeff: 0</span>
+                                                    <select class="form-control" name="Previous-Heart-Surgery-2" id="Previous-Heart-Surgery-2">
+                                                        <option selected="selected" value="Nil">Nil</option>
                                                         <option value="CABG">CABG</option>
                                                         <option value="Valve Repair">Valve Repair</option>
                                                         <option value="Valve Replacement">Valve Replacement</option>
@@ -365,12 +369,16 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <label for="hypertension">Prev "Q Wave" MI's:</label>
-                                                    <select class="form-control" name="hypertension" id="hypertension">
-                                                        <option value="None">No</option>
-                                                        <option value="Recent">Yes: Recent (Within 90 days)</option>
-                                                        <option value="Old">Yes: Old (&gt;90 days)</option>
-                                                        <option value="Unknown">Unknown</option>
+                                                    <label for="hypertension">Previous Heart Surgery-3:</label>
+                                                    <span class="B-Coeff" style="float: right;color: deeppink">B-Coeff: 0</span>
+                                                    <select class="form-control" name="Previous-Heart-Surgery-3" id="Previous-Heart-Surgery-3">
+                                                        <option selected="selected" value="Nil">Nil</option>
+                                                        <option value="CABG">CABG</option>
+                                                        <option value="Valve Repair">Valve Repair</option>
+                                                        <option value="Valve Replacement">Valve Replacement</option>
+                                                        <option value="Congenital Surgery">Congenital Surgery</option>
+                                                        <option value="Others Open Heart">Others Open Heart</option>
+                                                        <option value="Others Closed Heart">Others Closed Heart</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -380,13 +388,9 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <label for="hypertension">Prev "Q Wave" MI's:</label>
-                                                    <select class="form-control" name="hypertension" id="hypertension">
-                                                        <option value="None">No</option>
-                                                        <option value="Recent">Yes: Recent (Within 90 days)</option>
-                                                        <option value="Old">Yes: Old (&gt;90 days)</option>
-                                                        <option value="Unknown">Unknown</option>
-                                                    </select>
+                                                    <label for="hypertension">D.O.L Surg.Int</label>
+                                                    <input placeholder="" class="form-control"  name="MIValue" type="date" value="" id="DOL-Surg-Int">
+                                                    <span class="field-validation-valid" data-valmsg-for="MIValue" data-valmsg-replace="true"></span>
                                                 </div>
                                             </div>
                                         </div>
@@ -397,7 +401,16 @@
                     </div>
                 </div>
             </div>
-
+            <div class="row">
+                <div class="d-flex justify-content-end">
+                    <button class="btn btn-success waves-effect waves-float waves-light me-1" data-bs-toggle="modal" data-bs-target="#add-payment-sidebar">
+                        Save
+                    </button>
+                    <button class="btn btn-danger waves-effect waves-float waves-light mx-0" data-bs-toggle="modal" data-bs-target="#add-payment-sidebar">
+                        Exit
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 </div>
