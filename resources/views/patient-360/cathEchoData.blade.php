@@ -73,8 +73,8 @@
                         </div>
                     </div>
                 </div>
-                <!--  anestesia consultant section -->
-                <div class="card ">
+                <!-- Cath Angio section -->
+                <div class="card">
                     <div class="card-header">
                         <h4 class="card-title">Cath / Angio Data</h4>
                     </div>
@@ -138,11 +138,11 @@
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 ">
-                                <div class=" card card-border mt-1">
+                                <div class="card " style="box-shadow: 0 4px 24px 0 rgb(34 41 47 / 7%) !important;">
                                     <div class="card-body">
-                                        <div class="row mt-1">
+                                        <div class="row">
                                             <div class="d-flex">
-                                                <div class="form-check form-check-inline ">
+                                                <div class="form-check form-switch ">
                                                     <label class="form-check-label" for="inlineCheckbox1">CASS Performed</label>
                                                     <input class="form-check-input me-1" type="checkbox" id="inlineCheckbox1" value="option1">
                                                 </div>
@@ -180,13 +180,14 @@
                         </div>
                     </div>
                 </div>
+                <!-- Echo Section -->
                 <div class="card">
                     <div class="card-header">
                         <h4 class="card-title">Echo Data</h4>
                     </div>
                     <div class="card-body">
-                        <div class="row mt-1 align-items-center">
-                            <div class="col-md-4 col-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-3 col-6">
                                 <div class="d-flex">
                                     <div class="form-check form-check-inline ">
                                         <label class="form-check-label" for="inlineCheckbox1">Echo Performed</label>
@@ -194,7 +195,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-6">
+                            <div class="col-md-3 col-6">
                                 <div class="mb-1">
                                     <label class="form-label" for="First-Name">Echo Date</label>
                                     <input type="Date" id="First-Name" class="form-control" placeholder="Notes Date" name="Written-By">
@@ -227,19 +228,19 @@
                                                     <option value="">--Select--</option>
                                                     <option value="">Mild</option>
                                                     <option value="">Moderate</option>
-                                                    <option value="">Sever</option>
+                                                    <option value="">Severe</option>
                                                 </select></td>
                                             <td><select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">--Select--</option>
                                                     <option value="">Mild</option>
                                                     <option value="">Moderate</option>
-                                                    <option value="">Sever</option>
+                                                    <option value="">Severe</option>
                                                 </select></td>
                                             <td><select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">--Select--</option>
                                                     <option value="">Mild</option>
                                                     <option value="">Moderate</option>
-                                                    <option value="">Sever</option>
+                                                    <option value="">Severe</option>
                                                 </select></td>
                                             <td>
                                                 <select class="form-select flex-grow-1" name="Blood-Group">
@@ -270,19 +271,19 @@
                                                     <option value="">--Select--</option>
                                                     <option value="">Mild</option>
                                                     <option value="">Moderate</option>
-                                                    <option value="">Sever</option>
+                                                    <option value="">Severe</option>
                                                 </select></td>
                                             <td><select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">--Select--</option>
                                                     <option value="">Mild</option>
                                                     <option value="">Moderate</option>
-                                                    <option value="">Sever</option>
+                                                    <option value="">Severe</option>
                                                 </select></td>
                                             <td><select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">--Select--</option>
                                                     <option value="">Mild</option>
                                                     <option value="">Moderate</option>
-                                                    <option value="">Sever</option>
+                                                    <option value="">Severe</option>
                                                 </select></td>
                                             <td>
                                                 <select class="form-select flex-grow-1" name="Blood-Group">
@@ -313,19 +314,19 @@
                                                     <option value="">--Select--</option>
                                                     <option value="">Mild</option>
                                                     <option value="">Moderate</option>
-                                                    <option value="">Sever</option>
+                                                    <option value="">Severe</option>
                                                 </select></td>
                                             <td><select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">--Select--</option>
                                                     <option value="">Mild</option>
                                                     <option value="">Moderate</option>
-                                                    <option value="">Sever</option>
+                                                    <option value="">Severe</option>
                                                 </select></td>
                                             <td><select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">--Select--</option>
                                                     <option value="">Mild</option>
                                                     <option value="">Moderate</option>
-                                                    <option value="">Sever</option>
+                                                    <option value="">Severe</option>
                                                 </select></td>
                                             <td>
                                                 <select class="form-select flex-grow-1" name="Blood-Group">
@@ -357,19 +358,19 @@
                                                     <option value="">--Select--</option>
                                                     <option value="">Mild</option>
                                                     <option value="">Moderate</option>
-                                                    <option value="">Sever</option>
+                                                    <option value="">Severe</option>
                                                 </select></td>
                                             <td><select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">--Select--</option>
                                                     <option value="">Mild</option>
                                                     <option value="">Moderate</option>
-                                                    <option value="">Sever</option>
+                                                    <option value="">Severe</option>
                                                 </select></td>
                                             <td><select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">--Select--</option>
                                                     <option value="">Mild</option>
                                                     <option value="">Moderate</option>
-                                                    <option value="">Sever</option>
+                                                    <option value="">Severe</option>
                                                 </select></td>
                                             <td>
                                                 <select class="form-select flex-grow-1" name="Blood-Group">
@@ -391,7 +392,7 @@
                                 </table>
                             </div>
                             <div class="col-md-4">
-                                <div class=" card mt-1">
+                                <div class=" card mt-1 " style="box-shadow: 0 4px 24px 0 rgb(34 41 47 / 7%) !important;">
                                     <div class="card-body">
                                         <div class="row mt-1">
                                             <div class="col-md-6 col-6">
