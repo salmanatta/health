@@ -44,8 +44,6 @@ class Controller extends BaseController
 
         return view('patient-360.cathEchoData');
     }
-
-
     public function testSQL()
     {
         return \Illuminate\Support\Facades\DB::table('testing')->get();
@@ -67,5 +65,13 @@ class Controller extends BaseController
     public function cardiacHistory()
     {
         return view('patient-360.cardiacHistory');
+    }
+    public function operationRemarks()
+    {
+        return view('operation.operation-remarks');
+    }
+    public function operationOutcome()
+    {
+        return view('operation.operation-outcome');
     }
 }
