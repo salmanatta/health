@@ -74,4 +74,8 @@ class Controller extends BaseController
     {
         return view('operation.operation-outcome');
     }
+    public function dischargeSummary()
+    {
+        return view('patient-360.discharge-summary');
+    }
 }
