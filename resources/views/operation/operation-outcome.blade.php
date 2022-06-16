@@ -486,46 +486,59 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="row">
-                            <div class="card" style="box-shadow: 0 4px 24px 0 rgb(34 41 47/7%) !important;">
-                                <div class="card-header">
-                                    <div class="form-check form-switch">
-                                        <input type="checkbox" class="form-check-input" id="blood-products">
-                                        <label class="card-title form-check-label" for="blood-products">Patient Death Entry</label>
+                            <div class="col-md-12">
+                                <div class="card" style="box-shadow: 0 4px 24px 0 rgb(34 41 47/7%) !important;">
+                                    <div class="card-header">
+                                        <div class="form-check form-switch">
+                                            <input type="checkbox" class="form-check-input" id="blood-products">
+                                            <label class="card-title form-check-label" for="blood-products">Patient Death Entry</label>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <div class="mb-1">
-                                                <div class="col-md-7 col-sm-6">
-                                                    <div class="form-check form-check-inline">
-                                                        <label class="form-label" for="Landline">I-A</label>
-                                                        <input type="text" id="Landline" class="form-control" placeholder="" name="Landline">
-                                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="mb-1">
+                                                    <label class="form-label" for="Landline">I-A</label>
+                                                    <input type="number" id="Landline" class="form-control" placeholder="" name="Landline">
                                                 </div>
                                             </div>
-                                            <div class="col-md-7 col-sm-6">
+                                            <div class="col-sm-4">
                                                 <div class="mb-1">
-                                                    <div class="col-md-7 col-sm-6">
-                                                        <div class="form-check form-check-inline">
-                                                            <label class="form-label" for="Landline">I-B</label>
-                                                            <input type="text" id="Landline" class="form-control" placeholder="" name="Landline">
-                                                        </div>
-                                                    </div>
+                                                    <label class="form-label" for="Landline">I-B</label>
+                                                    <input type="number" id="Landline" class="form-control" placeholder="" name="Landline">
                                                 </div>
                                             </div>
                                         </div>
+
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="mb-1">
+                                                    <label class="form-label" for="Landline">I-C</label>
+                                                    <input type="number" id="Landline" class="form-control" placeholder="" name="Landline">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="mb-1">
+                                                    <label class="form-label" for="Landline">II</label>
+                                                    <input type="number" id="Landline" class="form-control" placeholder="" name="Landline">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="mb-1">
+                                                    <label class="form-label" for="Landline">CPR Notes</label>
+                                                    <textarea class="form-control" name="OtherMedication" id="OtherMedication" style="height: 180px;"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-
-
-
-
 
                         <div class="row">
                             <div class="d-flex justify-content-end">
