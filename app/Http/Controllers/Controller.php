@@ -78,4 +78,8 @@ class Controller extends BaseController
     {
         return view('patient-360.discharge-summary');
     }
+    public function patientDailyLabValue()
+    {
+        return view('patient-360.patientDailyLabValue');
+    }
 }
