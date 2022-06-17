@@ -30,12 +30,11 @@
 	<b> WT/KG=</b>
       	</td>
         <td> <input type="text" class="form-control" id=""></td>
-         <td> <input type="text" class="form-control" id=""></td>
-          <td> <input type="text" class="form-control" id=""></td>
-           <td> <input type="text" class="form-control" id=""></td>
-            <td> <input type="text" class="form-control" id=""></td>
-             <td> <input type="text" class="form-control" id=""></td>
-       
+        <td> <input type="text" class="form-control" id=""></td>
+        <td> <input type="text" class="form-control" id=""></td>
+        <td> <input type="text" class="form-control" id=""></td>
+        <td> <input type="text" class="form-control" id=""></td>
+        <td> <input type="text" class="form-control" id=""></td>
       </tr>
         
          <tr>
