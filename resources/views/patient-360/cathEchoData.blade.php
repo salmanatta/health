@@ -22,7 +22,7 @@
             <form class="form">
                 @include('patient-360.current-patient')
                 <div class="accordion accordion-margin" id="accordionMargin">
-
+                
                 </div>
                 <!-- Cath Angio section -->
                 <div class="card">
@@ -33,9 +33,9 @@
                         <div class="row">
                             <div class="col-12 col-md-6">
                                 <div class="row">
-                                    <div class="col-12 col-md-6">
+                                    <div class="col-6 col-md-6">
                                         <div class="row">
-                                            <div class="col-md-12 col-6">
+                                            <div class="col-md-12 col-12">
                                                 <label class="form-label" for="kinName">Ejection Fraction</label>
                                                 <select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">Unknown</option>
@@ -44,7 +44,7 @@
                                                     <option value="B+">Poor(<30%) </option>
                                                 </select>
                                             </div>
-                                            <div class="col-md-12 col-6 mt-1">
+                                            <div class="col-md-12 col-12 mt-1">
                                                 <label class="form-label" for="kinName">Left main dis</label>
                                                 <select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">Nil</option>
@@ -53,7 +53,7 @@
                                                     <option value="B+">>70% </option>
                                                 </select>
                                             </div>
-                                            <div class="col-md-12 col-6 mt-1">
+                                            <div class="col-md-12 col-12 mt-1">
                                                 <label class="form-label" for="kinName">Ext of Sig. CAD</label>
                                                 <select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">Nil</option>
@@ -64,21 +64,21 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-md-6 ">
+                                    <div class="col-6 col-md-6 ">
                                         <div class="row">
-                                            <div class="col-md-12 col-6">
+                                            <div class="col-md-12 col-12">
                                                 <label class="form-label" for="kinName">LVED</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="LVED" name="Written-By">
                                             </div>
-                                            <div class="col-md-12 col-6 mt-1">
+                                            <div class="col-md-12 col-12 mt-1">
                                                 <label class="form-label" for="kinName">PAPS</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="PAPS" name="Written-By">
                                             </div>
-                                            <div class="col-md-12 col-6 mt-1">
+                                            <div class="col-md-12 col-12 mt-1">
                                                 <label class="form-label" for="kinName">PAPD</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="PAPD" name="Written-By">
                                             </div>
-                                            <div class="col-md-12 col-6 mt-1">
+                                            <div class="col-md-12 col-12 mt-1">
                                                 <label class="form-label" for="kinName">PAPW</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="PAPW" name="Written-By">
                                             </div>
@@ -155,7 +155,7 @@
                         </div>
                         <div class="row mt-1">
                             <div class="col-md-8">
-                                <table class="table">
+                                <table class="table d-block d-xl-table" style = "overflow: auto;white-space:nowrap;">
                                     <thead>
                                         <tr>
                                             <th class="text-center" scope="col">Valve</th>

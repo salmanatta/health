@@ -74,4 +74,8 @@ class Controller extends BaseController
     {
         return view('operation.operation-outcome');
     }
+    public function operationInfo(){
+        return view('operation.operation-info');
+    }
+    
 }

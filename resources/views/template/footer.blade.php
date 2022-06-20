@@ -17,6 +17,9 @@
 <script src="{{ url('/resources/vendors/js/forms/select/select2.full.min.js')}}"></script>
 
 <script src="{{ url('/resources/js/custom-js.js')}}"></script>
+<script src="{{ url('/resources/js/operation-info.js')}}"></script>
+<script src="{{ url('/resources/js/cath-echo.js')}}"></script>
+
 
 
 <!-- BEGIN: Page JS-->

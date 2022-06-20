@@ -40,4 +40,5 @@ Route::group(['prefix' => 'anesthesia'] , function() {
 Route::group(['prefix' => 'operation'] , function() {
     Route::get('/remarks', [\App\Http\Controllers\Controller::class, 'operationRemarks'])->name('operation-remarks');
     Route::get('/outcome', [\App\Http\Controllers\Controller::class, 'operationOutcome'])->name('operation-outcome');
+    Route::get('/info', [\App\Http\Controllers\Controller::class, 'operationInfo'])->name('operation-info');
 });
