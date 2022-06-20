@@ -325,10 +325,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
-                            <button type="submit" class="btn btn-primary me-1 waves-effect waves-float waves-light">Submit</button>
-                            <button type="reset" class="btn btn-outline-secondary waves-effect">Reset</button>
-                        </div>
+                        <div class="row my-1 pb-1 ">
+                                    <div class="d-flex justify-content-end">
+                                        <button class="btn btn-success waves-effect waves-float waves-light me-1" data-bs-toggle="modal" data-bs-target="#add-payment-sidebar">
+                                            Save
+                                        </button>
+                                        <button class="btn btn-danger waves-effect waves-float waves-light mx-0" data-bs-toggle="modal" data-bs-target="#add-payment-sidebar">
+                                            Exit
+                                        </button>
+                                    </div>
+                                </div>
 
                     </div>
                 </div>
