@@ -1,27 +1,16 @@
 <div class="accordion-item">
     <h2 class="accordion-header" id="headingMarginOne">
-        <button
-            class="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#accordionMarginOne"
-            aria-expanded="false"
-            aria-controls="accordionMarginOne"
-        >
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionMarginOne" aria-expanded="false" aria-controls="accordionMarginOne">
             Cardiac History
         </button>
     </h2>
-    <div
-        id="accordionMarginOne"
-        class="accordion-collapse collapse"
-        aria-labelledby="headingMarginOne"
-        data-bs-parent="#accordionMargin">
+    <div id="accordionMarginOne" class="accordion-collapse collapse" aria-labelledby="headingMarginOne" data-bs-parent="#accordionMargin">
         <div class="accordion-body">
             <div class="row">
                 <div class="col-md-4 col-lg-4">
                     <div class="mb-1">
                         <label for="agnduration">Angina Duration:</label>
-                        <select class="form-control" name="agnduration" id="agnduration" >
+                        <select class="form-control" name="agnduration" id="agnduration">
                             <option value="Asymptomatic">Asymptomatic</option>
                             <option value="< 1 Week">&lt; 1 Week</option>
                             <option value="1-6 Weeks">1-6 Weeks</option>
@@ -55,7 +44,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="mb-1">
                         <label for="agnduration">ASA class:</label>
-                        <select class="form-control" name="agnduration" id="agnduration" >
+                        <select class="form-control" name="agnduration" id="agnduration">
                             <option value="Class-I">Class-I</option>
                             <option value="Class-II">Class-II</option>
                             <option value="Class-III">Class-III</option>
@@ -75,8 +64,8 @@
                                 <span class="text-danger">*</span>
                             </label>
                             <span class="B-Coeff" style="float: right;color: deeppink">B-Coeff: 0.1070545
-                            <span id="Bccsclass">0</span>
-                        </span>
+                                <span id="Bccsclass">0</span>
+                            </span>
                             <select class="form-control" name="nyhaclass" id="nyhaclass" onchange="SetNyhaCoeff(this.value,'Bnyha')">
                                 <option value="Class-I">Class-I</option>
                                 <option value="Class-II">Class-II</option>
@@ -233,8 +222,8 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="MIValue">If <=3 Months Then Date of Last MI</label>
-                                    <input placeholder="" class="form-control"  name="MIValue" type="date" value="">
-                                    <span class="field-validation-valid" data-valmsg-for="MIValue" data-valmsg-replace="true"></span>
+                                            <input placeholder="" class="form-control" name="MIValue" type="date" value="">
+                                            <span class="field-validation-valid" data-valmsg-for="MIValue" data-valmsg-replace="true"></span>
                                 </div>
                             </div>
                         </div>
@@ -319,7 +308,7 @@
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label for="hypertension">D.O.L Inv.Int</label>
-                                                    <input placeholder="" class="form-control"  name="DOL-Inv-Int" type="date" value="" id="DOL-Inv-Int">
+                                                    <input placeholder="" class="form-control" name="DOL-Inv-Int" type="date" value="" id="DOL-Inv-Int">
                                                     <span class="field-validation-valid" data-valmsg-for="MIValue" data-valmsg-replace="true"></span>
                                                 </div>
                                             </div>
@@ -389,7 +378,7 @@
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label for="hypertension">D.O.L Surg.Int</label>
-                                                    <input placeholder="" class="form-control"  name="MIValue" type="date" value="" id="DOL-Surg-Int">
+                                                    <input placeholder="" class="form-control" name="MIValue" type="date" value="" id="DOL-Surg-Int">
                                                     <span class="field-validation-valid" data-valmsg-for="MIValue" data-valmsg-replace="true"></span>
                                                 </div>
                                             </div>
