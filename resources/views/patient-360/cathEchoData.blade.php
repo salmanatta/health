@@ -22,7 +22,7 @@
             <form class="form">
                 @include('patient-360.current-patient')
                 <div class="accordion accordion-margin" id="accordionMargin">
-                
+
                 </div>
                 <!-- Cath Angio section -->
                 <div class="card">
@@ -102,7 +102,7 @@
                                         <div class="row mt-1">
                                             <div class="col-md-6 col-6 ">
                                                 <label class="form-label" for="kinName">Anterobasal</label>
-                                                <input type="Number"  class="form-control cass" placeholder="Anterobasal" name="Written-By">
+                                                <input type="Number" class="form-control cass" placeholder="Anterobasal" name="Written-By">
                                             </div>
                                             <div class="col-md-6 col-6">
                                                 <label class="form-label" for="kinName">Diaphragmatic</label>
@@ -155,14 +155,14 @@
                         </div>
                         <div class="row mt-1">
                             <div class="col-md-8">
-                                <table class="table d-block d-xl-table" style = "overflow: auto;white-space:nowrap;">
+                                <table class="table d-block d-xl-table" style="overflow: auto;white-space:nowrap;">
                                     <thead>
                                         <tr>
                                             <th class="text-center" scope="col">Valve</th>
-                                            <th  class="text-center" scope="col">Stenosis</th>
-                                            <th class="text-center"  scope="col">Regurg</th>
-                                            <th  class="text-center" scope="col">Gradient</th>
-                                            <th  class="text-center" scope="col">Pathology</th>
+                                            <th class="text-center" scope="col">Stenosis</th>
+                                            <th class="text-center" scope="col">Regurg</th>
+                                            <th class="text-center" scope="col">Gradient</th>
+                                            <th class="text-center" scope="col">Pathology</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -375,19 +375,20 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mt-1">
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-primary me-1 waves-effect waves-float waves-light">Submit</button>
-                                <button type="reset" class="btn btn-outline-secondary waves-effect">Reset</button>
+                        <div class="row my-1 pb-1 ">
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-success waves-effect waves-float waves-light me-1" data-bs-toggle="modal" data-bs-target="#add-payment-sidebar">
+                                    Save
+                                </button>
+                                <button class="btn btn-danger waves-effect waves-float waves-light mx-0" data-bs-toggle="modal" data-bs-target="#add-payment-sidebar">
+                                    Exit
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </form>
     </div>
-    @endsection  
+    @endsection
 
     <!-- f -->
-
-
-               
