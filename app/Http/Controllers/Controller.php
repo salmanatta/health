@@ -84,5 +84,10 @@ class Controller extends BaseController
     {
         return view('patient-360.discharge-summary');
     }
+    
+    public function PreOpCheck()
+    {
+        return view('operation.pre-operating-check');
+    }
 
 }
