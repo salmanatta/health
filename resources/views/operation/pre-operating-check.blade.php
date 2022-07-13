@@ -27,7 +27,7 @@
                     </div>
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-md-3 col-12">
+                            <div class="col-lg-3 col-md-6  col-12">
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="me-1">
@@ -143,7 +143,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-12 mt-md-0 mt-1">
+                            <div class="col-lg-3 col-md-6 col-12 col-lg-6 mt-md-0 mt-1">
                                 <div class="row">
                                     <div class="col-md-6 col-6">
                                         <label class="form-label" for="First-Name">Patient NPO From (Hours)</label>
@@ -172,9 +172,13 @@
                                         <label class="form-label" for="First-Name">Packed Cells Arranged (Units)</label>
                                         <input type="Number" id="First-Name" class="form-control" placeholder="0" name="Anestesia-Incharge">
                                     </div>
+                                    <div class="col-12 col-md-12 mt-1">
+                                        <label class="form-label" for="First-Name">Patients's Allergies if Any</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-12 mt-md-0 mt-1">
+                            <div class="col-lg-3 col-md-6 col-12  mt-md-0 mt-1">
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="me-1">
@@ -292,59 +296,72 @@
                             </div>
                         </div>
                         <div class="row mt-1">
-                            <div class="col-12 col-md-6">
-                                <label class="form-label" for="First-Name">Patients's Allergies if Any</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <div class="col-12 col-md-6">
+
+                            <div class="col-12 col-md-12 " style="">
                                 <div class="row">
                                     <div class="col-3 mt-1">
-                                        <label class="form-label" for="First-Name">Blood group</label>
-                                        <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge">
+                                        <label class="form-label" for="First-Name">Blood group </label>
+                                        <input type="text" id="First-Name" class="form-control" placeholder="Blood group" name="Anestesia-Incharge">
                                     </div>
 
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">Hemaglobin</label>
-                                        <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge">
+                                        <input type="text" id="First-Name" class="form-control" placeholder="Hemaglobin" name="Anestesia-Incharge">
                                     </div>
 
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">Serum K</label>
-                                        <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge">
+                                        <input type="text" id="First-Name" class="form-control" placeholder="Serum K" name="Anestesia-Incharge">
                                     </div>
 
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">BUN / Creatinine</label>
-                                        <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge">
+                                        <input type="text" id="First-Name" class="form-control" placeholder="BUN / Creatinine" name="Anestesia-Incharge">
                                     </div>
 
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">Glucose</label>
-                                        <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge">
+                                        <input type="text" id="First-Name" class="form-control" placeholder="Glucose" name="Anestesia-Incharge">
                                     </div>
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">PT</label>
-                                        <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge">
+                                        <input type="text" id="First-Name" class="form-control" placeholder="PT" name="Anestesia-Incharge">
                                     </div>
 
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">APTT</label>
-                                        <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge">
+                                        <input type="text" id="First-Name" class="form-control" placeholder="APTT" name="Anestesia-Incharge">
                                     </div>
 
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">HBsAg</label>
-                                        <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge">
+                                        <input type="text" id="First-Name" class="form-control" placeholder="HBsAg" name="Anestesia-Incharge">
                                     </div>
 
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">Ht./cm</label>
-                                        <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge">
+                                        <input type="text" id="First-Name" class="form-control" placeholder="Ht./cm" name="Anestesia-Incharge">
                                     </div>
 
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">wt/kg</label>
-                                        <input type="text" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge">
+                                        <input type="text" id="First-Name" class="form-control" placeholder="wt/kg" name="Anestesia-Incharge">
+                                    </div>
+                                    <div class="col-3 mt-1">
+                                        <label class="form-label" for="First-Name">B.P</label>
+                                        <input type="text" id="First-Name" class="form-control" placeholder="B.P" name="Anestesia-Incharge">
+                                    </div>
+                                    <div class="col-3 mt-1">
+                                        <label class="form-label" for="First-Name">Pulse</label>
+                                        <input type="text" id="First-Name" class="form-control" placeholder="Pulse" name="Anestesia-Incharge">
+                                    </div>
+                                    <div class="col-3 mt-1">
+                                        <label class="form-label" for="First-Name">Temp</label>
+                                        <input type="text" id="First-Name" class="form-control" placeholder="Temp" name="Anestesia-Incharge">
+                                    </div>
+                                    <div class="col-3 mt-1">
+                                        <label class="form-label" for="First-Name">R/R</label>
+                                        <input type="text" id="First-Name" class="form-control" placeholder="R/R" name="Anestesia-Incharge">
                                     </div>
 
                                 </div>
