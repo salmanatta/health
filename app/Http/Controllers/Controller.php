@@ -62,6 +62,7 @@ class Controller extends BaseController
 
         print_r($data);
     }
+
     public function cardiacHistory()
     {
         return view('patient-360.cardiacHistory');
@@ -79,10 +80,14 @@ class Controller extends BaseController
         return view('operation.operation-info');
     }
     
-
     public function dischargeSummary()
     {
         return view('patient-360.discharge-summary');
+    }
+
+    public function physioPreOpAssesment(){
+
+        return view('physical-therapy.physio-pre-op-assesment');
     }
     
     public function PreOpCheck()

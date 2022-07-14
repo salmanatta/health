@@ -143,7 +143,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="col-lg-3 col-md-6 col-12  mt-md-0 mt-1">
                                 <div class="row">
                                     <div class="col-6">
@@ -374,8 +374,10 @@
                     </div>
                 </div>
 
+
             </form>
     </div>
-    @endsection
+</div>
+@endsection
 
-    <!-- f -->
+<!-- f -->
