@@ -33,9 +33,9 @@
                         <div class="row">
                             <div class="col-12 col-md-6">
                                 <div class="row">
-                                    <div class="col-12 col-md-6">
+                                    <div class="col-6 col-md-6">
                                         <div class="row">
-                                            <div class="col-md-12 col-6">
+                                            <div class="col-md-12 col-12">
                                                 <label class="form-label" for="kinName">Ejection Fraction</label>
                                                 <select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">Unknown</option>
@@ -44,7 +44,7 @@
                                                     <option value="B+">Poor(<30%) </option>
                                                 </select>
                                             </div>
-                                            <div class="col-md-12 col-6">
+                                            <div class="col-md-12 col-12 mt-1">
                                                 <label class="form-label" for="kinName">Left main dis</label>
                                                 <select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">Nil</option>
@@ -53,7 +53,7 @@
                                                     <option value="B+">>70% </option>
                                                 </select>
                                             </div>
-                                            <div class="col-md-12 col-6">
+                                            <div class="col-md-12 col-12 mt-1">
                                                 <label class="form-label" for="kinName">Ext of Sig. CAD</label>
                                                 <select class="form-select flex-grow-1" name="Blood-Group">
                                                     <option value="">Nil</option>
@@ -64,21 +64,21 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-md-6 ">
+                                    <div class="col-6 col-md-6 ">
                                         <div class="row">
-                                            <div class="col-md-12 col-6">
+                                            <div class="col-md-12 col-12">
                                                 <label class="form-label" for="kinName">LVED</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="LVED" name="Written-By">
                                             </div>
-                                            <div class="col-md-12 col-6">
+                                            <div class="col-md-12 col-12 mt-1">
                                                 <label class="form-label" for="kinName">PAPS</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="PAPS" name="Written-By">
                                             </div>
-                                            <div class="col-md-12 col-6">
+                                            <div class="col-md-12 col-12 mt-1">
                                                 <label class="form-label" for="kinName">PAPD</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="PAPD" name="Written-By">
                                             </div>
-                                            <div class="col-md-12 col-6">
+                                            <div class="col-md-12 col-12 mt-1">
                                                 <label class="form-label" for="kinName">PAPW</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="PAPW" name="Written-By">
                                             </div>
@@ -100,27 +100,27 @@
                                             </div>
                                         </div>
                                         <div class="row mt-1">
-                                            <div class="col-md-6 col-6">
+                                            <div class="col-md-6 col-6 ">
                                                 <label class="form-label" for="kinName">Anterobasal</label>
-                                                <input type="Number"  class="form-control cass" placeholder="Anterobasal" name="Written-By">
+                                                <input type="Number" class="form-control cass" placeholder="Anterobasal" name="Written-By">
                                             </div>
                                             <div class="col-md-6 col-6">
                                                 <label class="form-label" for="kinName">Diaphragmatic</label>
                                                 <input type="Number" id="First-Name" class="form-control cass" placeholder="Diaphragmatic" name="Written-By">
                                             </div>
-                                            <div class="col-md-6 col-6">
+                                            <div class="col-md-6 col-6 mt-1">
                                                 <label class="form-label" for="kinName">Anteriolateral</label>
                                                 <input type="Number" id="First-Name" class="form-control cass" placeholder="Anteriolateral" name="Written-By">
                                             </div>
-                                            <div class="col-md-6 col-6">
+                                            <div class="col-md-6 col-6 mt-1">
                                                 <label class="form-label" for="kinName">Posterobasal</label>
                                                 <input type="Number" id="First-Name" class="form-control cass" placeholder="Posterobasal" name="Written-By">
                                             </div>
-                                            <div class="col-md-6 col-6">
+                                            <div class="col-md-6 col-6 mt-1">
                                                 <label class="form-label" for="kinName">Apical</label>
                                                 <input type="Number" id="First-Name" class="form-control cass" placeholder="Apical" name="Written-By">
                                             </div>
-                                            <div class="col-md-6 col-6">
+                                            <div class="col-md-6 col-6 mt-1">
                                                 <label class="form-label" for="kinName">Total CASS</label>
                                                 <input type="Number" id="First-Name" class="form-control cass" placeholder="Total CASS" name="Written-By">
                                             </div>
@@ -155,14 +155,14 @@
                         </div>
                         <div class="row mt-1">
                             <div class="col-md-8">
-                                <table class="table">
+                                <table class="table d-block d-xl-table" style="overflow: auto;white-space:nowrap;">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Valve</th>
-                                            <th scope="col">Stenosis</th>
-                                            <th scope="col">Regurg</th>
-                                            <th scope="col">Gradient</th>
-                                            <th scope="col">Pathology</th>
+                                            <th class="text-center" scope="col">Valve</th>
+                                            <th class="text-center" scope="col">Stenosis</th>
+                                            <th class="text-center" scope="col">Regurg</th>
+                                            <th class="text-center" scope="col">Gradient</th>
+                                            <th class="text-center" scope="col">Pathology</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -343,9 +343,9 @@
                                 </table>
                             </div>
                             <div class="col-md-4">
-                                <div class=" card mt-1 " style="box-shadow: 0 4px 24px 0 rgb(34 41 47 / 7%) !important;">
+                                <div class=" card " style="box-shadow: 0 4px 24px 0 rgb(34 41 47 / 7%) !important;">
                                     <div class="card-body">
-                                        <div class="row mt-1">
+                                        <div class="row">
                                             <div class="col-md-6 col-6">
                                                 <label class="form-label" for="kinName">LVIDD</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="LVIDD" name="Written-By">
@@ -354,19 +354,19 @@
                                                 <label class="form-label" for="kinName">LVIDS</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="LVIDS" name="Written-By">
                                             </div>
-                                            <div class="col-md-6 col-6">
+                                            <div class="col-md-6 col-6 mt-1">
                                                 <label class="form-label" for="kinName">LVPW</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="LVPW" name="Written-By">
                                             </div>
-                                            <div class="col-md-6 col-6">
+                                            <div class="col-md-6 col-6 mt-1">
                                                 <label class="form-label" for="kinName">SEPTUM</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="SEPTUM" name="Written-By">
                                             </div>
-                                            <div class="col-md-6 col-6">
+                                            <div class="col-md-6 col-6 mt-1">
                                                 <label class="form-label" for="kinName">EF%</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="EF%" name="Written-By">
                                             </div>
-                                            <div class="col-md-6 col-6">
+                                            <div class="col-md-6 col-6 mt-1">
                                                 <label class="form-label" for="kinName">PAP</label>
                                                 <input type="Number" id="First-Name" class="form-control" placeholder="PAP" name="Written-By">
                                             </div>
@@ -375,19 +375,20 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mt-1">
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-primary me-1 waves-effect waves-float waves-light">Submit</button>
-                                <button type="reset" class="btn btn-outline-secondary waves-effect">Reset</button>
+                        <div class="row my-1 pb-1 ">
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-success waves-effect waves-float waves-light me-1" data-bs-toggle="modal" data-bs-target="#add-payment-sidebar">
+                                    Save
+                                </button>
+                                <button class="btn btn-danger waves-effect waves-float waves-light mx-0" data-bs-toggle="modal" data-bs-target="#add-payment-sidebar">
+                                    Exit
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </form>
     </div>
-    @endsection  
+    @endsection
 
     <!-- f -->
-
-
-               

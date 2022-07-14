@@ -796,7 +796,6 @@
             </div>
         </section>
         <!-- Dashboard Ecommerce ends -->
-
     </div>
 </div>
 @endsection
