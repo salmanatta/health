@@ -143,41 +143,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-12 col-lg-6 mt-md-0 mt-1">
-                                <div class="row">
-                                    <div class="col-md-6 col-6">
-                                        <label class="form-label" for="First-Name">Patient NPO From (Hours)</label>
-                                        <input type="Number" id="First-Name" class="form-control" placeholder="0" name="Anestesia-Incharge">
-                                        <!-- <select class="form-select flex-grow-1" name="Blood-Group">
-                                                <option value=""> Dr. Kashif Anwar</option>
-                                                <option value="">Dr. Abidullah</option>
-                                                <option value="">Dr. Kashif Anwar</option>
-                                                <option value="">Dr. Abdul Nasir</option>
-                                                <option value="">Dr. RafiUllah</option>
-                                            </select> -->
-                                    </div>
-                                    <div class="col-md-6 col-6">
-                                        <label class="form-label" for="First-Name">Pre-op medication given at</label>
-                                        <input type="time" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge">
-                                    </div>
-                                    <div class="col-md-6 col-6 mt-1">
-                                        <label class="form-label" for="First-Name">Bladder empiled at</label>
-                                        <input type="time" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge">
-                                    </div>
-                                    <div class="col-md-6 col-6 mt-1">
-                                        <label class="form-label" for="First-Name">Platelets Arranged (Units)</label>
-                                        <input type="Number" id="First-Name" class="form-control" placeholder="0" name="Anestesia-Incharge">
-                                    </div>
-                                    <div class="col-md-6 col-6 mt-1">
-                                        <label class="form-label" for="First-Name">Packed Cells Arranged (Units)</label>
-                                        <input type="Number" id="First-Name" class="form-control" placeholder="0" name="Anestesia-Incharge">
-                                    </div>
-                                    <div class="col-12 col-md-12 mt-1">
-                                        <label class="form-label" for="First-Name">Patients's Allergies if Any</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div class="col-lg-3 col-md-6 col-12  mt-md-0 mt-1">
                                 <div class="row">
                                     <div class="col-6">
@@ -291,6 +257,41 @@
                                                 <label class="form-check-label" for="inlineCheckbox2">No</label>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12 col-lg-6 mt-md-0 mt-1">
+                                <div class="row">
+                                    <div class="col-md-6 col-6">
+                                        <label class="form-label" for="First-Name">Patient NPO From (Hours)</label>
+                                        <input type="Number" id="First-Name" class="form-control" placeholder="0" name="Anestesia-Incharge">
+                                        <!-- <select class="form-select flex-grow-1" name="Blood-Group">
+                                                <option value=""> Dr. Kashif Anwar</option>
+                                                <option value="">Dr. Abidullah</option>
+                                                <option value="">Dr. Kashif Anwar</option>
+                                                <option value="">Dr. Abdul Nasir</option>
+                                                <option value="">Dr. RafiUllah</option>
+                                            </select> -->
+                                    </div>
+                                    <div class="col-md-6 col-6">
+                                        <label class="form-label" for="First-Name">Pre-op medication given at</label>
+                                        <input type="time" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge">
+                                    </div>
+                                    <div class="col-md-6 col-6 mt-1">
+                                        <label class="form-label" for="First-Name">Bladder empiled at</label>
+                                        <input type="time" id="First-Name" class="form-control" placeholder="Anestesia Incharge" name="Anestesia-Incharge">
+                                    </div>
+                                    <div class="col-md-6 col-6 mt-1">
+                                        <label class="form-label" for="First-Name">Platelets Arranged (Units)</label>
+                                        <input type="Number" id="First-Name" class="form-control" placeholder="0" name="Anestesia-Incharge">
+                                    </div>
+                                    <div class="col-md-6 col-6 mt-1">
+                                        <label class="form-label" for="First-Name">Packed Cells Arranged (Units)</label>
+                                        <input type="Number" id="First-Name" class="form-control" placeholder="0" name="Anestesia-Incharge">
+                                    </div>
+                                    <div class="col-12 col-md-12 mt-1">
+                                        <label class="form-label" for="First-Name">Patients's Allergies if Any</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                     </div>
                                 </div>
                             </div>
