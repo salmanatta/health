@@ -89,16 +89,22 @@ class Controller extends BaseController
 
         return view('physical-therapy.physio-pre-op-assesment');
     }
-    
+
+    public function cardioPulmoTherapy()
+    {
+        return view('physical-therapy.cardio-pulmonary-physical-therapy');
+    }
+
     public function PreOpCheck()
     {
         return view('operation.pre-operating-check');
     }
-
+    
     public function patientDailyLabValue()
     {
         return view('patient-360.patientDailyLabValue');
     }
+   
 
 
 }
