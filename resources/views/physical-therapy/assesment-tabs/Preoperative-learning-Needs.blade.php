@@ -6,7 +6,6 @@
     </h2>
     <div id="accordionMarginOne" class="accordion-collapse collapse" aria-labelledby="headingMarginOne" data-bs-parent="#accordionMargin">
         <div class="accordion-body mx-1">
-
             <div class="row">
                 <div class=" col-md-12  col-12 mt-md-0 mt-1">
                     <div class="row">
@@ -17,7 +16,6 @@
                                 <option value="">Yes </option>
                                 <option value="">No</option>
                                 <option value="">NA</option>
-
                             </select>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-3  col-12 mt-1">
@@ -119,6 +117,17 @@
                                 <option value="">No</option>
                                 <option value="">NA</option>
                             </select>
+                        </div>
+                    </div>
+                    <!-- save section -->
+                    <div class="row my-1 pb-1 ">
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-success waves-effect waves-float waves-light me-1" data-bs-toggle="modal" data-bs-target="#add-payment-sidebar">
+                                Save
+                            </button>
+                            <button class="btn btn-danger waves-effect waves-float waves-light mx-0" data-bs-toggle="modal" data-bs-target="#add-payment-sidebar">
+                                Exit
+                            </button>
                         </div>
                     </div>
                 </div>

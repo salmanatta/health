@@ -14,10 +14,7 @@
             </div>
         </div>
     </div>
-    <!-- dd mm yy -->
     <div class="content-body">
-        <!-- Basic Horizontal form layout section start -->
-        <!-- Basic multiple Column Form section start -->
         <section id="multiple-column-form">
             <form class="form">
                 @include('patient-360.current-patient')
@@ -143,7 +140,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-lg-3 col-md-6 col-12  mt-md-0 mt-1">
                                 <div class="row">
                                     <div class="col-6">
@@ -265,13 +261,6 @@
                                     <div class="col-md-6 col-6">
                                         <label class="form-label" for="First-Name">Patient NPO From (Hours)</label>
                                         <input type="Number" id="First-Name" class="form-control" placeholder="0" name="Anestesia-Incharge">
-                                        <!-- <select class="form-select flex-grow-1" name="Blood-Group">
-                                                <option value=""> Dr. Kashif Anwar</option>
-                                                <option value="">Dr. Abidullah</option>
-                                                <option value="">Dr. Kashif Anwar</option>
-                                                <option value="">Dr. Abdul Nasir</option>
-                                                <option value="">Dr. RafiUllah</option>
-                                            </select> -->
                                     </div>
                                     <div class="col-md-6 col-6">
                                         <label class="form-label" for="First-Name">Pre-op medication given at</label>
@@ -297,29 +286,24 @@
                             </div>
                         </div>
                         <div class="row mt-1">
-
                             <div class="col-12 col-md-12 " style="">
                                 <div class="row">
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">Blood group </label>
                                         <input type="text" id="First-Name" class="form-control" placeholder="Blood group" name="Anestesia-Incharge">
                                     </div>
-
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">Hemaglobin</label>
                                         <input type="text" id="First-Name" class="form-control" placeholder="Hemaglobin" name="Anestesia-Incharge">
                                     </div>
-
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">Serum K</label>
                                         <input type="text" id="First-Name" class="form-control" placeholder="Serum K" name="Anestesia-Incharge">
                                     </div>
-
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">BUN / Creatinine</label>
                                         <input type="text" id="First-Name" class="form-control" placeholder="BUN / Creatinine" name="Anestesia-Incharge">
                                     </div>
-
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">Glucose</label>
                                         <input type="text" id="First-Name" class="form-control" placeholder="Glucose" name="Anestesia-Incharge">
@@ -328,22 +312,18 @@
                                         <label class="form-label" for="First-Name">PT</label>
                                         <input type="text" id="First-Name" class="form-control" placeholder="PT" name="Anestesia-Incharge">
                                     </div>
-
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">APTT</label>
                                         <input type="text" id="First-Name" class="form-control" placeholder="APTT" name="Anestesia-Incharge">
                                     </div>
-
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">HBsAg</label>
                                         <input type="text" id="First-Name" class="form-control" placeholder="HBsAg" name="Anestesia-Incharge">
                                     </div>
-
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">Ht./cm</label>
                                         <input type="text" id="First-Name" class="form-control" placeholder="Ht./cm" name="Anestesia-Incharge">
                                     </div>
-
                                     <div class="col-3 mt-1">
                                         <label class="form-label" for="First-Name">wt/kg</label>
                                         <input type="text" id="First-Name" class="form-control" placeholder="wt/kg" name="Anestesia-Incharge">
@@ -364,17 +344,21 @@
                                         <label class="form-label" for="First-Name">R/R</label>
                                         <input type="text" id="First-Name" class="form-control" placeholder="R/R" name="Anestesia-Incharge">
                                     </div>
-
                                 </div>
-
-
                             </div>
-
+                        </div>
+                        <div class="row my-1 pb-1 ">
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-success waves-effect waves-float waves-light me-1" data-bs-toggle="modal" data-bs-target="#add-payment-sidebar">
+                                    Save
+                                </button>
+                                <button class="btn btn-danger waves-effect waves-float waves-light mx-0" data-bs-toggle="modal" data-bs-target="#add-payment-sidebar">
+                                    Exit
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-
             </form>
     </div>
 </div>

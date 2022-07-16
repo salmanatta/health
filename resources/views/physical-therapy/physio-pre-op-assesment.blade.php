@@ -14,26 +14,21 @@
             </div>
         </div>
     </div>
-    <!-- dd mm yy -->
     <div class="content-body">
-        <!-- Basic Horizontal form layout section start -->
-        <!-- Basic multiple Column Form section start -->
         <section id="multiple-column-form">
             <form class="form">
                 @include('patient-360.current-patient')
                 <div class="accordion accordion-margin" id="accordionMargin">
-                @include('physical-therapy.assesment-tabs.Preoperative-learning-Needs')
-                <!-- 2nd item -->
-                @include('physical-therapy.assesment-tabs.assesments')
-                <!-- third item -->
-                @include('operation.info-tabs.valve-arotic-surgery-data')
-                <!-- fourth item -->
-                @include('operation.info-tabs.cbp-data')
-            </div>
-
-
+                    <!-- first items -->
+                    @include('physical-therapy.assesment-tabs.Preoperative-learning-Needs')
+                    <!-- 2nd item -->
+                    @include('physical-therapy.assesment-tabs.assesments')
+                    <!-- 3rd item -->
+                    @include('physical-therapy.assesment-tabs.medication-history')
+                    <!-- 4th item -->
+                    @include('physical-therapy.assesment-tabs.psychological-status')
+                </div>
             </form>
-           
     </div>
 </div>
 @endsection
