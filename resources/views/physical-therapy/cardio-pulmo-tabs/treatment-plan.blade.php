@@ -19,15 +19,15 @@
                                     <label class="form-label" for="First-Name">Secretion Clearance Techniques</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
-                                <div class="  col-6 mt-1">
+                                <div class="  col-4 mt-1">
                                     <label class="form-label" for="First-Name">Breathing Exercies</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
-                                <div class="  col-6 mt-1">
+                                <div class="  col-4 mt-1">
                                     <label class="form-label" for="First-Name">Spirometry</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
-                                <div class="  col-6 mt-1">
+                                <div class="  col-4 mt-1">
                                     <label class="form-label" for="First-Name">Strength / Stability Training</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
@@ -51,40 +51,36 @@
                                     <label class="form-label" for="First-Name">additional Notes</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-1">
-                        <div class="col-6">
-                            <div class="row">
-                                <div class="col-6">
-                                    <div class="me-1">
-                                        <label class="form-label" for="kinName">Patient/Attendent education regarding:</label>
-                                    </div>
-                                    <div class="mt-1">
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                            <label class="form-check-label" for="inlineCheckbox1">Cardiac rehabilitation</label>
+                                <div class="col-6 mt-1">
+                                    <div class="col-6">
+                                        <div class="me-1">
+                                            <label class="form-label" for="kinName">Patient/Attendent education regarding:</label>
                                         </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                            <label class="form-check-label" for="inlineCheckbox2">Posture</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                            <label class="form-check-label" for="inlineCheckbox3">Sternotomy precautions</label>
-                                        </div>
-                                        <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-                                            <label class="form-check-label" for="inlineCheckbox4">Bed Mobility / log roll</label>
+                                        <div class="mt-1">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                <label class="form-check-label" for="inlineCheckbox1">Cardiac rehabilitation</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                <label class="form-check-label" for="inlineCheckbox2">Posture</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                                <label class="form-check-label" for="inlineCheckbox3">Sternotomy precautions</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                                                <label class="form-check-label" for="inlineCheckbox4">Bed Mobility / log roll</label>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <div class="col-6">
-                                   
-                                </div> -->
                             </div>
                         </div>
+                    </div>
+                    <div class="row mt-1 card">
+
                     </div>
 
                     <!-- save section -->

@@ -10,7 +10,6 @@
                 <div class=" col-md-12  col-12 mt-md-0 mt-1">
                     <div class="row">
                         <div class="col-6">
-
                             <div class="card">
                                 <div class="card-body">
                                     <div class="row mb-1">
@@ -22,8 +21,6 @@
                                             </button>
                                         </div>
                                     </div>
-
-
                                     <table class="table d-block d-xl-table" style="overflow: auto;white-space:nowrap;">
                                         <thead>
                                             <tr>
