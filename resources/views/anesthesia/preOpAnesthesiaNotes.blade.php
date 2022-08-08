@@ -326,15 +326,15 @@
                             </div>
                         </div>
                         <div class="row my-1 pb-1 ">
-                                    <div class="d-flex justify-content-end">
-                                        <button class="btn btn-success waves-effect waves-float waves-light me-1" data-bs-toggle="modal" data-bs-target="#add-payment-sidebar">
-                                            Save
-                                        </button>
-                                        <button class="btn btn-danger waves-effect waves-float waves-light mx-0" data-bs-toggle="modal" data-bs-target="#add-payment-sidebar">
-                                            Exit
-                                        </button>
-                                    </div>
-                                </div>
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-success waves-effect waves-float waves-light me-1" data-bs-toggle="modal" data-bs-target="#add-payment-sidebar">
+                                    Save
+                                </button>
+                                <button class="btn btn-danger waves-effect waves-float waves-light mx-0" data-bs-toggle="modal" data-bs-target="#add-payment-sidebar">
+                                    Exit
+                                </button>
+                            </div>
+                        </div>
 
                     </div>
                 </div>

@@ -34,7 +34,13 @@ Route::group(['prefix' => 'patient-360'] , function() {
 
 Route::group(['prefix' => 'anesthesia'] , function() {
     Route::get('/', [\App\Http\Controllers\Controller::class, 'preOpAnesthesia'])->name('pre-op-anesthesia');
+    
 
+});
+
+Route::group(['prefix' => 'PhysicalTherapy'] , function() {
+    Route::get('/', [\App\Http\Controllers\Controller::class, 'physioPreOpAssesment'])->name('physio-pre-op-assesment');
+    Route::get('/cardio-pulmonary-physical-therapy', [\App\Http\Controllers\Controller::class, 'cardioPulmoTherapy'])->name('cardio-pulmonary-physical-therapy');
 
 });
 
@@ -44,6 +50,5 @@ Route::group(['prefix' => 'operation'] , function() {
     Route::get('/info', [\App\Http\Controllers\Controller::class, 'operationInfo'])->name('operation-info');
     Route::get('/discharge', [\App\Http\Controllers\Controller::class, 'dischargeSummary'])->name('discharge-summary');
     Route::get('/pre-op-check', [\App\Http\Controllers\Controller::class, 'PreOpCheck'])->name('pre-op-check');
-
 
 });
